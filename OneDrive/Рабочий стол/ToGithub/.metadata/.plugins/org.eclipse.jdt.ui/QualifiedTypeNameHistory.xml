@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="client.windows.LoginAndRegister.CheckConnectionTimerListener"/>
+    <fullyQualifiedTypeName name="client.manager.RequestManager"/>
+    <fullyQualifiedTypeName name="shared.messages.Message"/>
+    <fullyQualifiedTypeName name="shared.messages.SignUpMessage"/>
+    <fullyQualifiedTypeName name="server.manager.DatabaseManager"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="shared.options.Options"/>
+    <fullyQualifiedTypeName name="client.manager.ThreadManager"/>
+    <fullyQualifiedTypeName name="shared.messages.CheckConnectionMessage"/>
+    <fullyQualifiedTypeName name="shared.messages.SignInMessage"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="client.windows.MainContentWindow"/>
+    <fullyQualifiedTypeName name="server.manager.LogManager"/>
+</qualifiedTypeNameHistroy>

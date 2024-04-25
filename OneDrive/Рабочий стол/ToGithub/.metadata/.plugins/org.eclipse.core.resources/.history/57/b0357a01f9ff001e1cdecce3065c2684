@@ -1,0 +1,5 @@
+package shared.options;
+
+public class Options {
+
+}

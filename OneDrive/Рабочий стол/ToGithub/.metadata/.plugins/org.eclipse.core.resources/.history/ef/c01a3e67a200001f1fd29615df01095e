@@ -1,0 +1,142 @@
+package client.manager;
+
+import java.io.*;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+import shared.messages.*;
+import shared.options.Options;
+
+public class RequestManager extends Thread{
+	
+	private Message message;
+	private Socket socket;
+	ObjectOutputStream objectOut;
+	ObjectInputStream objectIn;
+	
+	public RequestManager(Message message) {
+		this.setMessage(message);
+	}
+	
+	@Override
+	public void run() {
+		if(message instanceof CheckConnectionMessage) {
+			try {
+				// Open connection to server via socket
+				socket = new Socket(Options.IP_USED, Options.PORT_USED); // Open socket to port and IP
+				//
+				
+				// Serializes and sends message to server
+				ObjectOutputStream objectOut = new ObjectOutputStream(socket.getOutputStream()); // Open stream to send object to server
+				objectOut.writeObject(this.getMessage()); // Write object to the stream
+				objectOut.flush(); // Send info in stream to the server
+				//
+				
+				// Receives serialized object from server and deserializes it
+				ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
+				this.getMessage().shallowCopy((Message) objectInputStream.readObject());
+				//
+				
+				// Close all streams
+				objectOut.close();
+				objectInputStream.close();
+				socket.close();
+				//
+
+			} catch (ClassNotFoundException e) {
+				e.printStackTrace();
+				
+			} catch (IOException e) {
+				System.out.println("Could not send message to server!!!");
+				System.out.println(e);
+			}
+		} else {
+			System.out.println("REQUEST_MANAGER:Attempt to send data to server...");
+			
+			try {
+				// Open connection to server via socket
+				Socket socket = new Socket(Options.IP_USED, Options.PORT_USED); // Open socket to port and IP
+				//
+				
+				// Serializes and sends message to server
+				ObjectOutputStream objectOut = new ObjectOutputStream(socket.getOutputStream()); // Open stream to send object to server
+				objectOut.writeObject(this.getMessage()); // Write object to the stream
+				objectOut.flush(); // Send info in stream to the server
+				System.out.println("REQUEST_MANAGER:Object is sent to server:");
+				//
+				
+				// Receives serialized object from server and deserializes it
+				System.out.println("REQUEST_MANAGER:Trying to get answear from server...");
+				ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
+				System.out.println("REQUEST_MANAGER:Object cuccessfully received from server");
+				this.getMessage().shallowCopy((Message) objectInputStream.readObject());
+				//
+				
+				// Prints to console received from server object
+				System.out.println("REQUEST_MANAGER:Data received from server:");
+				//
+				
+				// Close all streams
+				objectOut.close();
+				objectInputStream.close();
+				socket.close();
+				//
+				
+				
+				
+			} catch (ClassNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				System.out.println("Could not send message to server!!!");
+				System.out.println(e);
+			}
+		}
+		
+	}
+
+	private Message getMessage() {
+		return message;
+	}
+
+	private void setMessage(Message message) {
+		this.message = message;
+	}
+	
+	private Socket getSocket() {
+		return socket;
+	}
+
+	private void setSocket(Socket socket) {
+		this.socket = socket;
+	}
+
+	private ObjectOutputStream getObjectOut() {
+		return objectOut;
+	}
+
+	private void setObjectOut(ObjectOutputStream objectOut) {
+		this.objectOut = objectOut;
+	}
+
+	private ObjectInputStream getObjectIn() {
+		return objectIn;
+	}
+
+	private void setObjectIn(ObjectInputStream objectIn) {
+		this.objectIn = objectIn;
+	}
+	
+	public void openSocketConnection(String IP, short port) throws UnknownHostException, IOException {
+		this.setSocket(new Socket(IP, port));
+	}
+
+	public void sendMessageToServer() {
+//		// Serializes and sends message to server
+//		ObjectOutputStream objectOut = new ObjectOutputStream(this.si.getOutputStream()); // Open stream to send object to server
+//		objectOut.writeObject(this.getMessage()); // Write object to the stream
+//		objectOut.flush(); // Send info in stream to the server
+//		System.out.println("REQUEST_MANAGER:Object is sent to server:");
+//		//
+	}
+}
