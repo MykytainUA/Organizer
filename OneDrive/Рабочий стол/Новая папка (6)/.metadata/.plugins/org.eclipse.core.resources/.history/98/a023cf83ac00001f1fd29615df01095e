@@ -1,0 +1,194 @@
+package server.server;
+
+import java.io.*;
+import java.net.*;
+
+import shared.messages.*;
+
+
+public class Server {
+	private final short port; // Port that is listening
+	private ServerSocket serverSocket; // Server socket that listens for requests
+	private Socket socket; // Socket that creates connection between client and server via streams
+	private Message message; // Wrapper class for info transferred between client and server
+	ObjectOutputStream objectOut; // Output stream
+	ObjectInputStream objectIn; // Input stream
+	//private DatabaseManager databaseManager;
+	
+	/**
+	 * Creates a server that listens on port and IP which specified in SharedOptions class
+	 * @param port a port that this server will be attached to 
+	 */
+	public Server(short port) {
+		System.out.println("SERVER:Trying to launch a server..."); 
+		this.port = port; // Set port
+		
+		try {
+			this.setServerSocket(new ServerSocket(this.port)); // Create ServerSocket
+			System.out.println("SERVER:Server socket created successfully");
+			
+		} catch (IOException e) {
+			System.out.println("SERVER:Could not create a server socket!!!");
+			System.out.println(e);
+			
+		}
+
+	}
+	
+	// Getters and setters
+	private ServerSocket getServerSocket() {
+		return serverSocket;
+	}
+
+	private void setServerSocket(ServerSocket serverSocket) {
+		this.serverSocket = serverSocket;
+	}
+
+	private Socket getSocket() {
+		return socket;
+	}
+
+	private void setSocket(Socket socket) {
+		this.socket = socket;
+	}
+
+	public Message getMessage() {
+		return message;
+	}
+
+	public void setMessage(Message message) {
+		this.message = message;
+	}
+	// End getters and setters
+	
+	private ObjectOutputStream getObjectOut() {
+		return objectOut;
+	}
+
+	private void setObjectOut(ObjectOutputStream objectOut) {
+		this.objectOut = objectOut;
+	}
+
+	private ObjectInputStream getObjectIn() {
+		return objectIn;
+	}
+
+	private void setObjectIn(ObjectInputStream objectIn) {
+		this.objectIn = objectIn;
+	}
+
+	/**
+	 * Here server waits for next request
+	 * when request received execution continues
+	 */
+	public void waitForNextRequest() {
+		
+		try {
+			this.setSocket(this.getServerSocket().accept()); // Listen for request and continue execution when request comes
+			
+		} catch (IOException e) {
+			System.out.println(e);
+		} 
+	}
+	
+	/**
+	 * When request received execute if possible
+	 */
+	public void executeRequest() {
+		try {
+			// Get object from client through sockets getInputStream() and ObjectInputStream
+			this.receiveMessageFromClient();
+			//
+			
+			// Routing and executing request
+			if(this.getMessage() instanceof CheckConnectionMessage) {
+				CheckConnectionMessage message = (CheckConnectionMessage) this.getMessage();
+				this.setMessage(message);
+				
+			} else if (this.getMessage() instanceof SignInMessage) {
+				System.out.println("SignInMessage received");
+				SignInMessage message = (SignInMessage) this.getMessage();
+				message.setResponseData(123);
+				this.setMessage(message);
+				
+			} else if (this.getMessage() instanceof SignUpMessage) {
+				System.out.println("SignUpMessage received");
+				SignUpMessage message = (SignUpMessage) this.getMessage();
+				message.setResponceData(123);
+				this.setMessage(message);
+			}
+			this.getMessage().success();
+			//
+			
+			// Sending answer to request back to client through sockets getOutputStream() and ObjectOutputStream
+			this.sendMessageToClient();
+			//
+			
+			this.close(); // Close streams
+			
+		} 
+		catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		catch (IOException e) {
+			System.out.println("Error during execution request!!!");
+			System.out.println(e);
+		}
+			
+	}
+	
+	/**
+	 * Receives message from client and sets
+	 * and makes a shallow copy from servers message
+	 * back to message field of this class
+	 * @throws IOException
+	 * @throws ClassNotFoundException
+	 */
+	private void receiveMessageFromClient() throws IOException, ClassNotFoundException {
+		
+		if(this.getSocket() == null) {
+			throw new IOException("REQUEST_MANAGER:ERROR:Socket is null!!!");
+		}
+		
+		this.setObjectIn(new ObjectInputStream(this.getSocket().getInputStream()));
+		this.setMessage((Message) this.getObjectIn().readObject()); // Deserialize object
+	}
+	
+	/**
+	 * Sends message field of this class back to client
+	 * @throws IOException
+	 */
+	private void sendMessageToClient() throws IOException {
+		if(this.getSocket() == null) {
+			throw new IOException("SERVER:ERROR:Socket is null!!!");
+		}
+		
+		if(this.getObjectIn() == null) {
+			throw new IOException("REQUEST_MANAGER:ERROR:In stream is closed!!!");
+		}
+		
+		// Serializes and sends message to server
+		this.setObjectOut(new ObjectOutputStream(this.getSocket().getOutputStream()));// Open stream to send object to server
+		this.getObjectOut().writeObject(this.getMessage()); // Write object to the stream
+		this.getObjectOut().flush(); // Send info in stream to the server
+		//
+	}
+	
+	/**
+	 * Closes all streams
+	 * @throws IOException
+	 */
+	private void close() throws IOException {
+		if(this.getSocket() != null) {
+			this.getSocket().close();
+		}
+		
+		if(this.getObjectOut() == null) {
+			this.getObjectOut().close();
+		}
+		
+		if(this.getObjectIn() == null) {
+			this.getObjectIn().close();
+		}	
+	}
+}
