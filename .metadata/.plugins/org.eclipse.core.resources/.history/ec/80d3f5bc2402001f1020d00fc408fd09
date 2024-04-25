@@ -1,0 +1,98 @@
+package server.manager;
+
+import java.io.IOException;
+import java.sql.*;
+import shared.messages.*;
+
+public class DatabaseManager {
+	private String dbURL = "jdbc:mysql://localhost:3306/organizerDB";
+	private String dbUsername = "root";
+	private String dbPass = "";
+	
+	private Connection connection = null;
+	private PreparedStatement preparedStatement = null;
+	
+	private Connection getConnection() {
+		return connection;
+	}
+
+	private void setConnection(Connection connection) {
+		this.connection = connection;
+	}
+
+	public DatabaseManager() {
+		
+		try {		
+			connection = DriverManager.getConnection(dbURL, dbUsername, dbPass);
+			
+			if(connection != null) {
+				System.out.println("DB_MANAGER:Connected to the database");
+			}
+			
+		} catch(SQLException e) {
+			System.out.println("DB_MANAGER:Could not connect to the database!!!");
+			System.out.println(e);
+		}
+	}
+	
+	/**
+	 * 
+	 * @param message information about sign in
+	 * @return ID if sign in was successful or -1 of no such record was found
+	 * @throws IOException
+	 */
+	public int tryToGetIdBySignIn(Message message) throws IOException {
+		if(this.getConnection() == null) {
+			throw new IOException("DABASE_MANAGER:ERROR:Database is not available");
+		}
+		
+		SignInMessage signInMessage = (SignInMessage) message;
+		int ID = -1;
+		
+		try {
+			String request = "SELECT ID FROM `users` WHERE login = ? AND password = ?;";	
+			
+			PreparedStatement preparedStatement = connection.prepareStatement(request);
+			preparedStatement.setString(1, signInMessage.getLogin());
+			preparedStatement.setString(2, signInMessage.getPassword());
+			
+			ResultSet resultSet = preparedStatement.executeQuery();
+			
+			// If no such record in database return -1
+			if(!resultSet.next()) {
+				signInMessage.setResponseData(-1);
+				return -1;
+			}
+			
+			ID = resultSet.getInt("ID");
+			
+			// If there is another record return -1
+			if(resultSet.next()) {
+				signInMessage.setResponseData(-1);
+				return -1;
+			}
+
+		} catch (SQLException e) {
+
+			e.printStackTrace();
+		}
+		return ID;
+	}
+	
+	/**
+	 * 
+	 * @param message information about sign up
+	 * @return ID if sign in was successful or -1 of no such record was found
+	 * @throws IOException
+	 */
+	public int tryToCreateSignUpRecord(Message message) throws IOException {
+		if(this.getConnection() == null) {
+			throw new IOException("DABASE_MANAGER:ERROR:Database is not available");
+		}
+		
+		SignUpMessage signUpMessage = (SignUpMessage) message;
+		int ID = -1;
+		
+		return false;
+	}
+}
