@@ -1,0 +1,194 @@
+package client.windows;
+
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JOptionPane;
+import javax.swing.Timer;
+
+import client.manager.ThreadManager;
+import shared.messages.*;
+import shared.options.Options;
+
+public class LoginAndRegisterPresenter {
+	private LoginAndRegisterView LogRegView; // view for this presenter
+	private Message dataMessage;
+	private CheckConnectionMessage checkConnectionMessage;
+	private Timer updateDataTimer; // Timer that checks if data was updated
+	private Timer checkConnectionTimer;
+	private ThreadManager threadManager;
+	
+
+	public LoginAndRegisterPresenter(LoginAndRegisterView logRegView) {
+		super();
+		this.setLogRegView(logRegView);
+		initialize();
+	}
+
+	
+	private LoginAndRegisterView getLogRegView() {
+		return LogRegView;
+	}
+
+
+	private void setLogRegView(LoginAndRegisterView logRegView) {
+		LogRegView = logRegView;
+	}
+
+
+	private Message getDataMessage() {
+		return dataMessage;
+	}
+
+
+	private void setDataMessage(Message dataMessage) {
+		this.dataMessage = dataMessage;
+	}
+
+
+	private CheckConnectionMessage getCheckConnectionMessage() {
+		return checkConnectionMessage;
+	}
+
+
+	private void setCheckConnectionMessage(CheckConnectionMessage checkConnectionMessage) {
+		this.checkConnectionMessage = checkConnectionMessage;
+	}
+
+
+	private Timer getUpdateDataTimer() {
+		return updateDataTimer;
+	}
+
+
+	private void setUpdateDataTimer(Timer updateDataTimer) {
+		this.updateDataTimer = updateDataTimer;
+	}
+
+
+	private Timer getCheckConnectionTimer() {
+		return checkConnectionTimer;
+	}
+
+
+	private void setCheckConnectionTimer(Timer checkConnectionTimer) {
+		this.checkConnectionTimer = checkConnectionTimer;
+	}
+
+
+	private ThreadManager getThreadManager() {
+		return threadManager;
+	}
+
+
+	private void setThreadManager(ThreadManager threadManager) {
+		this.threadManager = threadManager;
+	}
+
+
+	private void initialize() {
+		System.out.println("CLIENT_SIDE:Initializing application");
+		this.setDataMessage(new CheckConnectionMessage());
+		this.setCheckConnectionMessage(new CheckConnectionMessage());
+		this.setThreadManager(new ThreadManager(this.getCheckConnectionMessage()));	
+		this.setUpdateDataTimer(new Timer(Options.CHECK_FOR_UPDATED_DATA_INTERVAL, new UpdateDataTimerListener())); 
+		this.setCheckConnectionTimer(new Timer(Options.CHECK_FOR_CONNECTION_INTERVAL, new CheckConnectionTimerListener()));
+		updateDataTimer.start();
+		checkConnectionTimer.start();
+		
+		System.out.println("CLIENT_SIDE:Check info timer has started");
+		System.out.println("CLIENT_SIDE:Client side initialized successfully");
+		for (int i = 0; i < 1000; i++) {
+			System.out.print("-");
+		}
+		System.out.println("/n");
+	}
+	
+	
+	
+	
+	
+	
+	/**
+	 * Timer that checks if data is updated
+	 */
+	private class UpdateDataTimerListener implements ActionListener{
+		/**
+		 * This part of code is called by UpdateDataTimer
+		 * Checks whether data was updated
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			if(getCheckConnectionMessage().isDataUpdated()) { // If data  in check connection message is updated
+				if(getCheckConnectionMessage().getResponseState() == ResponseState.SUCCESS) { // And response is successful
+					LogRegView.getLoginConnectionIndicator().setBackground(Color.GREEN); // Set connection indicators to green
+					LogRegView.getRegisterConnectionIndicator().setBackground(Color.GREEN);	
+				} else {
+					LogRegView.getLoginConnectionIndicator().setBackground(Color.RED); // Else to red
+					LogRegView.getRegisterConnectionIndicator().setBackground(Color.RED);
+				}
+				getCheckConnectionMessage().setDataUpdated(false); // Uncheck data update
+			}
+			if(dataMessage.isDataUpdated()) { // If data was updated 
+				if(dataMessage instanceof SignInMessage) { // Deal with sign in response
+					System.out.println("CLIENT_SIDE:SignInData received:");
+					SignInMessage castedData = (SignInMessage) dataMessage;
+					if(castedData.getResponseState() == ResponseState.SUCCESS) {
+						LogRegView.setMainContentWindow(new MainContentWindow());
+						LogRegView.getFrame().dispose();
+					} else if (castedData.getResponseState() == ResponseState.NO_SUCH_ENTRY_IN_DATABASE) {
+						JOptionPane.showMessageDialog(LogRegView.getFrame(), "Invalid login or password, try again", "No such account", JOptionPane.WARNING_MESSAGE);
+					} else if (castedData.getResponseState() == ResponseState.ERROR){
+						JOptionPane.showMessageDialog(LogRegView.getFrame(), "Could not sign in, error on server happened", "Sign in error", JOptionPane.WARNING_MESSAGE);
+					} else {
+						JOptionPane.showMessageDialog(LogRegView.getFrame(), "Unknown error occured", "Unknown", JOptionPane.WARNING_MESSAGE);
+					}
+					
+				} else if (dataMessage instanceof SignUpMessage) { // Deal with sign up response
+					System.out.println("CLIENT_SIDE:SignUpData received:");
+					SignUpMessage castedData = (SignUpMessage) dataMessage;
+					
+					if(castedData.getResponseState() == ResponseState.SUCCESS) {
+						JOptionPane.showMessageDialog(LogRegView.getFrame(), "Account was successfuly created\nNow you can go back to sign in window", "Account was created", JOptionPane.INFORMATION_MESSAGE);
+					} else if (castedData.getResponseState() == ResponseState.LOGIN_AND_PASSWORD_ARE_TOO_SMALL) {
+						JOptionPane.showMessageDialog(LogRegView.getFrame(), "Both password and login must be at least 3 digits", "Small password or login", JOptionPane.WARNING_MESSAGE);
+					} else {
+						JOptionPane.showMessageDialog(LogRegView.getFrame(), "Could not sign up, error happened, try again", "Sign up error", JOptionPane.WARNING_MESSAGE);
+					}
+					
+				} else {
+					System.out.println("CLIENT_SIDE:ERROR:Unknown data received from server!!!");
+					System.out.println(dataMessage);
+				}
+				System.out.println(dataMessage);
+				dataMessage.setDataUpdated(false); // Uncheck data update
+			}
+		}
+	}
+	
+	/**
+	 * Timer that checks if data is updated
+	 */
+	private class CheckConnectionTimerListener implements ActionListener{
+		/**
+		 * This part of code is called every 50 milliseconds to check if 
+		 * data was updated
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			if(getThreadManager().isCheckConnectionMessageThreadAlive()) { // Check connection thread is alive		
+				if(getThreadManager().getCheckConnectionThreadDuration() >= Options.MAX_TIME_RESPOND) { // Time has expired
+					System.out.println("CLIENT_SIDE:ERROR:Time for response expired waiting for reconnect");
+					LogRegView.getLoginConnectionIndicator().setBackground(Color.RED);
+					LogRegView.getRegisterConnectionIndicator().setBackground(Color.RED);	
+				} 	
+			} else { // Check connection thread is dead
+				setCheckConnectionMessage(new CheckConnectionMessage()); // Create a new check connection message
+				getThreadManager().sendMessage(getCheckConnectionMessage());	// And send it to server			
+			}
+			
+		}
+		
+	}
+}

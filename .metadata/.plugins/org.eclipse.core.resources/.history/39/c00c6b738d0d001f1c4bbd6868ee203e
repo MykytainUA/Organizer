@@ -1,0 +1,300 @@
+package client.windows;
+
+import java.awt.CardLayout;
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.Date;
+import javax.swing.JOptionPane;
+import javax.swing.Timer;
+import com.toedter.calendar.JCalendar;
+import client.manager.ThreadManager;
+import shared.messages.*;
+import shared.options.Options;
+
+public class MainContentWindowPresenter {
+	private MainContentWindowView mainContView; // view for this presenter
+	private Message dataMessage; // message that will be sent to server
+	private CheckConnectionMessage checkConnectionMessage; // check connection message
+	private Timer updateDataTimer; // Timer that checks if data was updated
+	private Timer checkConnectionTimer; // Timer that checks if connection is available
+	private ThreadManager threadManager; // Thread manager to send messages to server
+	private Date dateChosenByUser;
+	
+	public MainContentWindowPresenter(MainContentWindowView mainContView) {
+		super();
+		this.mainContView = mainContView;
+		this.initialize();
+	}
+	
+	private MainContentWindowView getMainContView() {
+		return mainContView;
+	}
+
+	private void setMainContView(MainContentWindowView mainContView) {
+		this.mainContView = mainContView;
+	}
+
+	private Message getDataMessage() {
+		return dataMessage;
+	}
+
+	private void setDataMessage(Message dataMessage) {
+		this.dataMessage = dataMessage;
+	}
+
+	private CheckConnectionMessage getCheckConnectionMessage() {
+		return checkConnectionMessage;
+	}
+
+	private void setCheckConnectionMessage(CheckConnectionMessage checkConnectionMessage) {
+		this.checkConnectionMessage = checkConnectionMessage;
+	}
+
+	private Timer getUpdateDataTimer() {
+		return updateDataTimer;
+	}
+
+	private void setUpdateDataTimer(Timer updateDataTimer) {
+		this.updateDataTimer = updateDataTimer;
+	}
+
+	private Timer getCheckConnectionTimer() {
+		return checkConnectionTimer;
+	}
+
+	private void setCheckConnectionTimer(Timer checkConnectionTimer) {
+		this.checkConnectionTimer = checkConnectionTimer;
+	}
+
+	private ThreadManager getThreadManager() {
+		return threadManager;
+	}
+
+	private void setThreadManager(ThreadManager threadManager) {
+		this.threadManager = threadManager;
+	}
+
+	public Date getDateChosenByUser() {
+		return dateChosenByUser;
+	}
+
+	public void setDateChosenByUser(Date dateChosenByUser) {
+		this.dateChosenByUser = dateChosenByUser;
+	}
+
+	private void initialize() {
+		System.out.println("CLIENT_SIDE:Initializing signed in application");
+		this.setDateChosenByUser(new Date());
+		this.setDataMessage(new CheckConnectionMessage());
+		this.setCheckConnectionMessage(new CheckConnectionMessage());
+		this.setThreadManager(new ThreadManager(this.getCheckConnectionMessage()));	
+		this.setUpdateDataTimer(new Timer(Options.CHECK_FOR_UPDATED_DATA_INTERVAL, new UpdateDataTimerListener())); 
+		this.setCheckConnectionTimer(new Timer(Options.CHECK_FOR_CONNECTION_INTERVAL, new CheckConnectionTimerListener()));
+		this.getMainContView().getManageTasksWindowButton().addActionListener(new ManageTasksWindowButtonListener());
+		this.getMainContView().getTasksForDayWindowButton().addActionListener(new TasksForDayWindowButtonListener());
+		this.getMainContView().getTasksForWeekWindowButton().addActionListener(new TasksForWeekWindowButtonListener());
+		this.getMainContView().getRepeatingTaskWindowButton().addActionListener(new RepeatingTaskWindowButtonListener());
+		this.getMainContView().getStatisticWindowButton().addActionListener(new StatisticsWindowButtonListener());
+		this.getMainContView().getExitButton().addActionListener(new ExitButtonListener());
+		this.getMainContView().getCalendar().addPropertyChangeListener(new ChooseNewDateInCalendarListener());
+		this.getUpdateDataTimer().start();
+		this.getCheckConnectionTimer().start();
+		
+		System.out.println("CLIENT_SIDE:Check info timer has started");
+		System.out.println("CLIENT_SIDE:Client side initialized successfully");
+		for (int i = 0; i < 1000; i++) {
+			System.out.print("-");
+		}
+		System.out.println("/n");
+	}
+	
+	/**
+	 * Timer that checks if data is updated
+	 */
+	private class UpdateDataTimerListener implements ActionListener{
+		/**
+		 * This part of code is called by UpdateDataTimer
+		 * Checks whether data was updated
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			if(getCheckConnectionMessage().isDataUpdated()) { // If data  in check connection message is updated
+				if(getCheckConnectionMessage().getResponseState() == ResponseState.SUCCESS) { // And response is successful
+					mainContView.getChosseDateConnectionIndicator().setBackground(Color.GREEN);
+					mainContView.getRepeatingTasksConnectionIndicator().setBackground(Color.GREEN);
+					mainContView.getStatisticsConnectionIndicator().setBackground(Color.GREEN);
+					mainContView.getTasksForTodayConnectionIndicator().setBackground(Color.GREEN);
+					mainContView.getTasksForWeekConnectionIndicator().setBackground(Color.GREEN);
+				} else {
+					mainContView.getChosseDateConnectionIndicator().setBackground(Color.RED);
+					mainContView.getRepeatingTasksConnectionIndicator().setBackground(Color.RED);
+					mainContView.getStatisticsConnectionIndicator().setBackground(Color.RED);
+					mainContView.getTasksForTodayConnectionIndicator().setBackground(Color.RED);
+					mainContView.getTasksForWeekConnectionIndicator().setBackground(Color.RED);
+				}
+				getCheckConnectionMessage().setDataUpdated(false); // Uncheck data update
+			}
+			if(dataMessage.isDataUpdated()) { // If data was updated 
+				System.out.println("Unknown message received!!!");
+				System.out.println(dataMessage);
+				dataMessage.setDataUpdated(false); // Uncheck data update
+			}
+		}
+	}
+	
+	
+	/**
+	 * Timer that checks if data is updated
+	 */
+	private class CheckConnectionTimerListener implements ActionListener{
+		/**
+		 * This part of code is called every 50 milliseconds to check if 
+		 * data was updated
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			if(getThreadManager().isCheckConnectionMessageThreadAlive()) { // Check connection thread is alive		
+				if(getThreadManager().getCheckConnectionThreadDuration() >= Options.MAX_TIME_RESPOND) { // Time has expired
+					System.out.println("CLIENT_SIDE:ERROR:Time for response expired waiting for reconnect");
+					mainContView.getChosseDateConnectionIndicator().setBackground(Color.RED);
+					mainContView.getRepeatingTasksConnectionIndicator().setBackground(Color.RED);
+					mainContView.getStatisticsConnectionIndicator().setBackground(Color.RED);
+					mainContView.getTasksForTodayConnectionIndicator().setBackground(Color.RED);
+					mainContView.getTasksForWeekConnectionIndicator().setBackground(Color.RED);
+				} 	
+			} else { // Check connection thread is dead
+				setCheckConnectionMessage(new CheckConnectionMessage()); // Create a new check connection message
+				getThreadManager().sendMessage(getCheckConnectionMessage());	// And send it to server			
+			}
+			
+		}
+		
+	}
+	
+	/**
+	 * Listener class for manageTasksWindowButton button
+	 */
+	private class ManageTasksWindowButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when manageTasksWindowButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			CardLayout cardLayout = (CardLayout) getMainContView().getLeftCardLayoutPanel().getLayout();
+			cardLayout.show(getMainContView().getLeftCardLayoutPanel(), "ManageTasksWindow");
+		}
+		
+	}
+	
+	/**
+	 * Listener class for tasksForDayWindowButton button
+	 */
+	private class TasksForDayWindowButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when tasksForDayWindowButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			CardLayout cardLayout = (CardLayout) getMainContView().getLeftCardLayoutPanel().getLayout();
+			cardLayout.show(getMainContView().getLeftCardLayoutPanel(), "TasksForDayWindow");
+		}
+		
+	}
+	
+	/**
+	 * Listener class for tasksForWeekWindowButton button
+	 */
+	private class TasksForWeekWindowButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when tasksForWeekWindowButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			CardLayout cardLayout = (CardLayout) getMainContView().getLeftCardLayoutPanel().getLayout();
+			cardLayout.show(getMainContView().getLeftCardLayoutPanel(), "TasksForWeekWindow");
+		}
+		
+	}
+	
+	/**
+	 * Listener class for repeatingTaskWindowButton button
+	 */
+	private class RepeatingTaskWindowButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when repeatingTaskWindowButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			CardLayout cardLayout = (CardLayout) getMainContView().getLeftCardLayoutPanel().getLayout();
+			cardLayout.show(getMainContView().getLeftCardLayoutPanel(), "RepeatingTasksWindow");
+		}
+		
+	}
+	
+	/**
+	 * Listener class for statisticsWindowButton button
+	 */
+	private class StatisticsWindowButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when statisticsWindowButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			CardLayout cardLayout = (CardLayout) getMainContView().getLeftCardLayoutPanel().getLayout();
+			cardLayout.show(getMainContView().getLeftCardLayoutPanel(), "StatisticsWindow");
+		}
+		
+	}
+	
+	/**
+	 * Listener class for exitButton button
+	 */
+	private class ExitButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when exitButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			int responce = JOptionPane.showOptionDialog(getMainContView().getFrame(), "Do you whish to exit from account?", "Exit?", 
+					                     JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,
+					                     null, null, null);
+			if(responce == JOptionPane.YES_OPTION) {
+				System.out.println("User choose yes option");
+				new LoginAndRegisterView();
+				getMainContView().getFrame().dispose();
+			} else {
+				System.out.println("User choose no option");
+			}
+		}
+		
+	}
+	
+	/**
+	 * Listener class for ChooseNewDateInCalendar calendar
+	 */
+	private class ChooseNewDateInCalendarListener implements PropertyChangeListener{
+		
+		/**
+		 * Executes when calendar in chooseDateWindow is changed
+		 */
+		@Override
+        public void propertyChange(PropertyChangeEvent evt) {
+            // Check if the property changed is the "calendar" property
+            if ("calendar".equals(evt.getPropertyName())) {
+                // A new date was chosen, perform your action here
+            	JCalendar chosenDate = (JCalendar) evt.getSource();
+                System.out.println("New date chosen: " + chosenDate.getDate());
+            }
+        }
+		
+	}
+}

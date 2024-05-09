@@ -3,19 +3,17 @@ package client.main;
 import javax.swing.UIManager;
 import javax.swing.UIManager.LookAndFeelInfo;
 
-import client.windows.LoginAndRegister;
-import client.windows.MainContentWindow;
+import client.windows.LoginAndRegisterView;
+import client.windows.MainContentWindowView;
 
 /**
  * Enter class for Client side of the application
  */
 public class ClientMain {
-	public static LoginAndRegister loginAndRegisterWindow;
-	public static MainContentWindow mainContentWindow;
 	
 	public static void main(String[] args) {
 		setLookAndFeel();
-		loginAndRegisterWindow = new LoginAndRegister(mainContentWindow); // Creates a new login and register window
+		new LoginAndRegisterView(); // Creates a new login and register window
 	}
 	
 	/**

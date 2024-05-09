@@ -1,0 +1,251 @@
+2024-05-08 14:17:33:SERVER:Trying to launch a server...
+2024-05-08 14:17:33:SERVER:Server socket created successfully
+2024-05-08 14:17:33:DB_MANAGER:Connected to the database
+2024-05-08 14:17:33:SERVER:Server is launched
+2024-05-08 14:36:28:SERVER:SignInMessage received
+2024-05-08 14:36:28:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-08 15:09:24:SERVER:SignInMessage received
+2024-05-08 15:09:24:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-08 15:14:22:SERVER:SignInMessage received
+2024-05-08 15:14:22:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-08 15:26:20:SERVER:SignInMessage received
+2024-05-08 15:26:20:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-08 22:43:32:SERVER:Trying to launch a server...
+2024-05-08 22:43:32:SERVER:Server socket created successfully
+2024-05-08 22:43:33:DB_MANAGER:Connected to the database
+2024-05-08 22:43:33:SERVER:Server is launched
+2024-05-08 22:44:01:SERVER:SignInMessage received
+2024-05-08 22:44:01:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-08 23:33:35:SERVER:SignInMessage received
+2024-05-08 23:33:35:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-08 23:33:51:SERVER:SignUpMessage received
+2024-05-08 23:33:51:DB_MANAGER:ERROR:Unable to execute SQL request!!!
+2024-05-08 23:33:51:java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'MykytaInUA' for key 'users.unique_login'
+2024-05-08 23:33:51:SERVER:Message received:
+2024-05-08 23:33:51:Message object:
+Is data updated:true
+Request type:SIGN_UP
+Response state:SUCH_LOGIN_ALREADY_EXIST
+Login:MykytaInUA
+Password:1234567890
+ID:-1
+2024-05-08 23:33:55:SERVER:SignUpMessage received
+2024-05-08 23:33:55:DB_MANAGER:ERROR:Unable to execute SQL request!!!
+2024-05-08 23:33:55:java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'MykytaInUA' for key 'users.unique_login'
+2024-05-08 23:33:55:SERVER:Message received:
+2024-05-08 23:33:55:Message object:
+Is data updated:true
+Request type:SIGN_UP
+Response state:SUCH_LOGIN_ALREADY_EXIST
+Login:MykytaInUA
+Password:1234567890
+ID:-1
+2024-05-08 23:34:06:SERVER:SignUpMessage received
+2024-05-08 23:34:06:DB_MANAGER:ERROR:Unable to execute SQL request!!!
+2024-05-08 23:34:06:java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'MykytaInUA' for key 'users.unique_login'
+2024-05-08 23:34:06:SERVER:Message received:
+2024-05-08 23:34:06:Message object:
+Is data updated:true
+Request type:SIGN_UP
+Response state:SUCH_LOGIN_ALREADY_EXIST
+Login:MykytaInUA
+Password:1234567890
+ID:-1
+2024-05-08 23:34:26:SERVER:SignInMessage received
+2024-05-08 23:34:26:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 00:12:41:SERVER:SignInMessage received
+2024-05-09 00:12:41:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:MykytaInUA
+Password:[C@5fa4bee5
+ID:-1
+2024-05-09 00:12:52:SERVER:SignInMessage received
+2024-05-09 00:12:52:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:MykytaInUA
+Password:[C@336be52e
+ID:-1
+2024-05-09 00:14:16:SERVER:SignInMessage received
+2024-05-09 00:14:16:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 00:40:38:SERVER:SignInMessage received
+2024-05-09 00:40:38:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 00:40:56:SERVER:SignUpMessage received
+2024-05-09 00:40:56:DABASE_MANAGER:Data inserted successfully
+2024-05-09 00:40:56:SERVER:Message received:
+2024-05-09 00:40:56:Message object:
+Is data updated:true
+Request type:SIGN_UP
+Response state:SUCCESS
+Login:uerhgferhgfb
+Password:438758
+ID:1
+2024-05-09 00:51:09:SERVER:SignInMessage received
+2024-05-09 00:51:09:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 00:56:51:SERVER:SignInMessage received
+2024-05-09 00:56:51:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 01:02:33:SERVER:SignInMessage received
+2024-05-09 01:02:33:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 01:13:14:SERVER:SignInMessage received
+2024-05-09 01:13:14:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 01:16:56:SERVER:SignInMessage received
+2024-05-09 01:16:56:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 01:18:59:SERVER:SignInMessage received
+2024-05-09 01:18:59:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 01:29:35:SERVER:SignInMessage received
+2024-05-09 01:29:35:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 01:51:14:SERVER:SignInMessage received
+2024-05-09 01:51:14:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 01:52:23:SERVER:SignInMessage received
+2024-05-09 01:52:23:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 02:12:25:SERVER:SignInMessage received
+2024-05-09 02:12:25:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 02:12:58:SERVER:SignInMessage received
+2024-05-09 02:12:58:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 02:23:13:SERVER:SignInMessage received
+2024-05-09 02:23:13:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 02:24:47:SERVER:SignInMessage received
+2024-05-09 02:24:47:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 02:25:08:SERVER:SignInMessage received
+2024-05-09 02:25:08:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1

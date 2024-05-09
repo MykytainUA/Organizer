@@ -1,0 +1,24 @@
+2024-05-04 23:23:21:SERVER:Trying to launch a server...
+2024-05-04 23:23:21:SERVER:Server socket created successfully
+2024-05-04 23:23:21:DB_MANAGER:Connected to the database
+2024-05-04 23:23:21:SERVER:Server is launched
+2024-05-04 23:42:56:SERVER:Trying to launch a server...
+2024-05-04 23:42:56:SERVER:Server socket created successfully
+2024-05-04 23:42:56:DB_MANAGER:Connected to the database
+2024-05-04 23:42:56:SERVER:Server is launched
+2024-05-05 00:52:55:SERVER:SignInMessage received
+2024-05-05 00:52:55:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-05 00:54:45:SERVER:SignInMessage received
+2024-05-05 00:54:45:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1

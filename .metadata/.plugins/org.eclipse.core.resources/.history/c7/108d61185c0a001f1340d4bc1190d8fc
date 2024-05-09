@@ -1,0 +1,140 @@
+package client.windows;
+
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JOptionPane;
+import javax.swing.Timer;
+
+import client.manager.ThreadManager;
+import client.windows.LoginAndRegisterView.CheckConnectionTimerListener;
+import client.windows.LoginAndRegisterView.UpdateDataTimerListener;
+import shared.messages.*;
+import shared.options.Options;
+
+public class LoginAndRegisterPresenter {
+	private LoginAndRegisterView LogRegView; // view for this presenter
+	private Message dataMessage;
+	private CheckConnectionMessage checkConnectionMessage;
+	private Timer updateDataTimer; // Timer that checks if data was updated
+	private Timer checkConnectionTimer;
+	private ThreadManager threadManager;
+	
+
+	public LoginAndRegisterPresenter(LoginAndRegisterView logRegView) {
+		super();
+		this.setLogRegView(logRegView);
+		initialize();
+	}
+
+	
+	private LoginAndRegisterView getLogRegView() {
+		return LogRegView;
+	}
+
+
+	private void setLogRegView(LoginAndRegisterView logRegView) {
+		LogRegView = logRegView;
+	}
+
+
+	private Message getDataMessage() {
+		return dataMessage;
+	}
+
+
+	private void setDataMessage(Message dataMessage) {
+		this.dataMessage = dataMessage;
+	}
+
+
+	private CheckConnectionMessage getCheckConnectionMessage() {
+		return checkConnectionMessage;
+	}
+
+
+	private void setCheckConnectionMessage(CheckConnectionMessage checkConnectionMessage) {
+		this.checkConnectionMessage = checkConnectionMessage;
+	}
+
+
+	private Timer getUpdateDataTimer() {
+		return updateDataTimer;
+	}
+
+
+	private void setUpdateDataTimer(Timer updateDataTimer) {
+		this.updateDataTimer = updateDataTimer;
+	}
+
+
+	private Timer getCheckConnectionTimer() {
+		return checkConnectionTimer;
+	}
+
+
+	private void setCheckConnectionTimer(Timer checkConnectionTimer) {
+		this.checkConnectionTimer = checkConnectionTimer;
+	}
+
+
+	private ThreadManager getThreadManager() {
+		return threadManager;
+	}
+
+
+	private void setThreadManager(ThreadManager threadManager) {
+		this.threadManager = threadManager;
+	}
+
+
+	private void initialize() {
+		System.out.println("CLIENT_SIDE:Initializing application");
+		this.setDataMessage(new CheckConnectionMessage());
+		this.setCheckConnectionMessage(new CheckConnectionMessage());
+		this.setThreadManager(new ThreadManager(this.getCheckConnectionMessage()));	
+//		this.setUpdateDataTimer(new Timer(Options.CHECK_FOR_UPDATED_DATA_INTERVAL, new UpdateDataTimerListener())); 
+		this.setCheckConnectionTimer(new Timer(Options.CHECK_FOR_CONNECTION_INTERVAL, new CheckConnectionTimerListener()));
+		updateDataTimer.start();
+		checkConnectionTimer.start();
+		
+		System.out.println("CLIENT_SIDE:Check info timer has started");
+		System.out.println("CLIENT_SIDE:Client side initialized successfully");
+		for (int i = 0; i < 1000; i++) {
+			System.out.print("-");
+		}
+		System.out.println("/n");
+	}
+	
+	
+	/**
+	 * Timer that checks if data is updated
+	 */
+	private class CheckConnectionTimerListener implements ActionListener{
+		/**
+		 * This part of code is called every 50 milliseconds to check if 
+		 * data was updated
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			if(getThreadManager().isCheckConnectionMessageThreadAlive()) { // Check connection thread is alive		
+				if(getThreadManager().getCheckConnectionThreadDuration() >= Options.MAX_TIME_RESPOND) { // Time has expired
+					System.out.println("CLIENT_SIDE:ERROR:Time for response expired waiting for reconnect");
+					loginConnectionIndicator.setBackground(Color.RED);
+					registerConnectionIndicator.setBackground(Color.RED);	
+				} 	
+			} else { // Check connection thread is dead
+				setCheckConnectionMessage(new CheckConnectionMessage()); // Create a new check connection message
+				getThreadManager().sendMessage(getCheckConnectionMessage());	// And send it to server			
+			}
+			
+		}
+		
+	}
+	
+	
+	
+	
+
+}

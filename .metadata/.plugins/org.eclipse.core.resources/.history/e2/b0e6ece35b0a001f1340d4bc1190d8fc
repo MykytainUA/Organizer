@@ -1,0 +1,94 @@
+package client.windows;
+
+import javax.swing.Timer;
+
+import client.manager.ThreadManager;
+import shared.messages.*;
+
+public class LoginAndRegisterPresenter {
+	private LoginAndRegisterView LogRegView; // view for this presenter
+	private Message dataMessage;
+	private CheckConnectionMessage checkConnectionMessage;
+	private Timer updateDataTimer; // Timer that checks if data was updated
+	private Timer checkConnectionTimer;
+	private ThreadManager threadManager;
+	
+
+	public LoginAndRegisterPresenter(LoginAndRegisterView logRegView) {
+		super();
+		this.setLogRegView(logRegView);
+		initialize();
+	}
+
+	
+	private LoginAndRegisterView getLogRegView() {
+		return LogRegView;
+	}
+
+
+	private void setLogRegView(LoginAndRegisterView logRegView) {
+		LogRegView = logRegView;
+	}
+
+
+	private Message getDataMessage() {
+		return dataMessage;
+	}
+
+
+	private void setDataMessage(Message dataMessage) {
+		this.dataMessage = dataMessage;
+	}
+
+
+	private CheckConnectionMessage getCheckConnectionMessage() {
+		return checkConnectionMessage;
+	}
+
+
+	private void setCheckConnectionMessage(CheckConnectionMessage checkConnectionMessage) {
+		this.checkConnectionMessage = checkConnectionMessage;
+	}
+
+
+	private Timer getUpdateDataTimer() {
+		return updateDataTimer;
+	}
+
+
+	private void setUpdateDataTimer(Timer updateDataTimer) {
+		this.updateDataTimer = updateDataTimer;
+	}
+
+
+	private Timer getCheckConnectionTimer() {
+		return checkConnectionTimer;
+	}
+
+
+	private void setCheckConnectionTimer(Timer checkConnectionTimer) {
+		this.checkConnectionTimer = checkConnectionTimer;
+	}
+
+
+	private ThreadManager getThreadManager() {
+		return threadManager;
+	}
+
+
+	private void setThreadManager(ThreadManager threadManager) {
+		this.threadManager = threadManager;
+	}
+
+
+	private void initialize() {
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

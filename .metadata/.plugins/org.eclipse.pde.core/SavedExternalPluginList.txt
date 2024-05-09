@@ -1,4 +1,4 @@
-# List of external plug-in models previously loaded. Timestamp: 1713970315043
+# List of external plug-in models previously loaded. Timestamp: 1715253594976
 file:/C:/Users/nikit/.p2/pool/plugins/bcpg_1.77.0.jar
 file:/C:/Users/nikit/.p2/pool/plugins/bcpkix_1.77.0.jar
 file:/C:/Users/nikit/.p2/pool/plugins/bcprov_1.77.0.jar
@@ -907,7 +907,7 @@ file:/C:/Users/nikit/.p2/pool/plugins/org.eclipse.xwt.forms_1.7.0.202211301116.j
 file:/C:/Users/nikit/.p2/pool/plugins/org.eclipse.xwt.pde_1.7.0.202211301116.jar
 file:/C:/Users/nikit/.p2/pool/plugins/org.eclipse.xwt.ui.workbench_1.8.0.202211301116.jar
 file:/C:/Users/nikit/.p2/pool/plugins/org.eclipse.xwt.xml_1.7.0.202211301116.jar
-file:/C:/Users/nikit/.p2/pool/plugins/org.freemarker.freemarker_2.3.32.stable.jar
+file:/C:/Users/nikit/.p2/pool/plugins/org.freemarker_2.3.22.v20160210-1233.jar
 file:/C:/Users/nikit/.p2/pool/plugins/org.glassfish.hk2.api_3.0.6.jar
 file:/C:/Users/nikit/.p2/pool/plugins/org.glassfish.hk2.locator_3.0.6.jar
 file:/C:/Users/nikit/.p2/pool/plugins/org.glassfish.hk2.osgi-resource-locator_1.0.3.v20221112-0806.jar
