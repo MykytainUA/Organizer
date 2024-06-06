@@ -1,0 +1,9 @@
+1715018762853	Rename type 'MainContentWindow'
+1715020002263	Delete element
+1715020352982	Delete element
+1715020911657	Rename type 'MainContentWindowPresenter'
+1715027178890	Rename type 'TasksForTodayButtonListener'
+1715028070446	Rename type 'TasksForWeekButtonListener'
+1715028176064	Rename type 'ManageTasksButtonListener'
+1715116237026	Rename method 'setManageTasksConnectionIndicator'
+1715116266236	Rename method 'getManageTasksConnectionIndicator'

@@ -1,0 +1,32 @@
+package shared.messages;
+
+/**
+ * Types of response
+ */
+public enum ResponseState {
+	
+	UNKNOWN {
+		@Override
+		public String getAsString() {
+			return "UNKNOWN";
+		}
+	},
+	
+	SUCCESSFULL {
+		@Override
+		public String getAsString() {
+			return "SUCCESSFULL";
+		}
+	}, 
+	
+	ERROR {
+		@Override
+		public String getAsString() {
+			return "ERROR";
+		}
+	}; 
+	
+	public String getAsString() {
+		return "UNKNOWN";
+	}
+}

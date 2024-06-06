@@ -1,0 +1,157 @@
+package client.windows;
+
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JOptionPane;
+import javax.swing.Timer;
+
+import client.manager.ThreadManager;
+import shared.messages.*;
+import shared.options.Options;
+
+public class MainContentWindowPresenter {
+	private MainContentWindowView mainContView; // view for this presenter
+	private Message dataMessage; // message that will be sent to server
+	private CheckConnectionMessage checkConnectionMessage; // check connection message
+	private Timer updateDataTimer; // Timer that checks if data was updated
+	private Timer checkConnectionTimer; // Timer that checks if connection is available
+	private ThreadManager threadManager; // Thread manager to send messages to server
+	
+	public MainContentWindowPresenter(MainContentWindowView mainContView) {
+		super();
+		this.mainContView = mainContView;
+	}
+	
+	private MainContentWindowView getMainContView() {
+		return mainContView;
+	}
+
+	private void setMainContView(MainContentWindowView mainContView) {
+		this.mainContView = mainContView;
+	}
+
+	private Message getDataMessage() {
+		return dataMessage;
+	}
+
+	private void setDataMessage(Message dataMessage) {
+		this.dataMessage = dataMessage;
+	}
+
+	private CheckConnectionMessage getCheckConnectionMessage() {
+		return checkConnectionMessage;
+	}
+
+	private void setCheckConnectionMessage(CheckConnectionMessage checkConnectionMessage) {
+		this.checkConnectionMessage = checkConnectionMessage;
+	}
+
+	private Timer getUpdateDataTimer() {
+		return updateDataTimer;
+	}
+
+	private void setUpdateDataTimer(Timer updateDataTimer) {
+		this.updateDataTimer = updateDataTimer;
+	}
+
+	private Timer getCheckConnectionTimer() {
+		return checkConnectionTimer;
+	}
+
+	private void setCheckConnectionTimer(Timer checkConnectionTimer) {
+		this.checkConnectionTimer = checkConnectionTimer;
+	}
+
+	private ThreadManager getThreadManager() {
+		return threadManager;
+	}
+
+	private void setThreadManager(ThreadManager threadManager) {
+		this.threadManager = threadManager;
+	}
+
+	private void initialize() {
+		System.out.println("CLIENT_SIDE:Initializing signed in application");
+		this.setDataMessage(new CheckConnectionMessage());
+		this.setCheckConnectionMessage(new CheckConnectionMessage());
+		this.setThreadManager(new ThreadManager(this.getCheckConnectionMessage()));	
+		this.setUpdateDataTimer(new Timer(Options.CHECK_FOR_UPDATED_DATA_INTERVAL, new UpdateDataTimerListener())); 
+		this.setCheckConnectionTimer(new Timer(Options.CHECK_FOR_CONNECTION_INTERVAL, new CheckConnectionTimerListener()));
+		this.getUpdateDataTimer().start();
+		this.getCheckConnectionTimer().start();
+		
+		System.out.println("CLIENT_SIDE:Check info timer has started");
+		System.out.println("CLIENT_SIDE:Client side initialized successfully");
+		for (int i = 0; i < 1000; i++) {
+			System.out.print("-");
+		}
+		System.out.println("/n");
+	}
+	
+	/**
+	 * Timer that checks if data is updated
+	 */
+	private class UpdateDataTimerListener implements ActionListener{
+		/**
+		 * This part of code is called by UpdateDataTimer
+		 * Checks whether data was updated
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			if(getCheckConnectionMessage().isDataUpdated()) { // If data  in check connection message is updated
+				if(getCheckConnectionMessage().getResponseState() == ResponseState.SUCCESS) { // And response is successful
+					mainContView.getManageTasksConnectionIndicator().setBackground(Color.GREEN);
+					mainContView.getRepeatingTasksConnectionIndicator().setBackground(Color.GREEN);
+					mainContView.getStatisticsConnectionIndicator().setBackground(Color.GREEN);
+					mainContView.getTasksForTodayConnectionIndicator().setBackground(Color.GREEN);
+					mainContView.getTasksForWeekConnectionIndicator().setBackground(Color.GREEN);
+				} else {
+					mainContView.getManageTasksConnectionIndicator().setBackground(Color.RED);
+					mainContView.getRepeatingTasksConnectionIndicator().setBackground(Color.RED);
+					mainContView.getStatisticsConnectionIndicator().setBackground(Color.RED);
+					mainContView.getTasksForTodayConnectionIndicator().setBackground(Color.RED);
+					mainContView.getTasksForWeekConnectionIndicator().setBackground(Color.RED);
+				}
+				getCheckConnectionMessage().setDataUpdated(false); // Uncheck data update
+			}
+			if(dataMessage.isDataUpdated()) { // If data was updated 
+				System.out.println("Unknown message received!!!");
+				System.out.println(dataMessage);
+				dataMessage.setDataUpdated(false); // Uncheck data update
+			}
+		}
+	}
+	
+	
+	/**
+	 * Timer that checks if data is updated
+	 */
+	private class CheckConnectionTimerListener implements ActionListener{
+		/**
+		 * This part of code is called every 50 milliseconds to check if 
+		 * data was updated
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			if(getThreadManager().isCheckConnectionMessageThreadAlive()) { // Check connection thread is alive		
+				if(getThreadManager().getCheckConnectionThreadDuration() >= Options.MAX_TIME_RESPOND) { // Time has expired
+					System.out.println("CLIENT_SIDE:ERROR:Time for response expired waiting for reconnect");
+					mainContView.getManageTasksConnectionIndicator().setBackground(Color.RED);
+					mainContView.getRepeatingTasksConnectionIndicator().setBackground(Color.RED);
+					mainContView.getStatisticsConnectionIndicator().setBackground(Color.RED);
+					mainContView.getTasksForTodayConnectionIndicator().setBackground(Color.RED);
+					mainContView.getTasksForWeekConnectionIndicator().setBackground(Color.RED);
+				} 	
+			} else { // Check connection thread is dead
+				setCheckConnectionMessage(new CheckConnectionMessage()); // Create a new check connection message
+				getThreadManager().sendMessage(getCheckConnectionMessage());	// And send it to server			
+			}
+			
+		}
+		
+	}
+	
+	
+}

@@ -1,0 +1,19 @@
+package shared.messages;
+
+public class CheckConnectionMessage extends Message{
+	
+	CheckConnectionMessage(){
+		this.setRequesType(RequestType.CHECK_CONNECTION);
+		this.setDataUpdated(false);
+	}
+	
+	public void CheckConnectionSuccess() {
+		this.setResponseState(ResponseState.SUCCESSFULL);
+		this.setDataUpdated(true);
+	}
+	
+	public void CheckConnectionError() {
+		this.setResponseState(ResponseState.ERROR);
+		this.setDataUpdated(true);
+	}
+}

@@ -1,0 +1,435 @@
+package client.windows;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import java.awt.Color;
+import java.awt.Dimension;
+
+import javax.swing.SpringLayout;
+import javax.swing.JPanel;
+import java.awt.CardLayout;
+import javax.swing.JButton;
+import javax.swing.ImageIcon;
+import java.awt.event.ActionListener;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.util.Date;
+import java.util.Locale;
+import java.awt.event.ActionEvent;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import com.toedter.calendar.JCalendar;
+import java.awt.Font;
+
+public class MainContentWindowView {
+
+	private JFrame frame;
+	private JPanel leftCardLayoutPanel;
+	private MainContentWindowPresenter mainContWindowPres;
+	
+	//Indicators
+	private JPanel chooseDateConnectionIndicator;
+	private JPanel tasksForTodayConnectionIndicator;
+	private JPanel tasksForWeekConnectionIndicator;
+	private JPanel repeatingTasksConnectionIndicator;
+	private JPanel statisticsConnectionIndicator;
+	//
+
+	/**
+	 * Create the application.
+	 */
+	public MainContentWindowView() {
+		initialize();
+		frame.setVisible(true);
+	}
+
+	public JPanel getLeftCardLayoutPanel() {
+		return leftCardLayoutPanel;
+	}
+
+	protected MainContentWindowPresenter getMainContWindowPres() {
+		return mainContWindowPres;
+	}
+
+	protected void setMainContWindowPres(MainContentWindowPresenter mainContWindowPres) {
+		this.mainContWindowPres = mainContWindowPres;
+	}
+
+	public JPanel getChosseDateConnectionIndicator() {
+		return chooseDateConnectionIndicator;
+	}
+
+	public void setChooseDateConnectionIndicator(JPanel chooseDateConnectionIndicator) {
+		this.chooseDateConnectionIndicator = chooseDateConnectionIndicator;
+	}
+
+	public JPanel getTasksForTodayConnectionIndicator() {
+		return tasksForTodayConnectionIndicator;
+	}
+
+	public void setTasksForTodayConnectionIndicator(JPanel tasksForTodayConnectionIndicator) {
+		this.tasksForTodayConnectionIndicator = tasksForTodayConnectionIndicator;
+	}
+
+	public JPanel getTasksForWeekConnectionIndicator() {
+		return tasksForWeekConnectionIndicator;
+	}
+
+	public void setTasksForWeekConnectionIndicator(JPanel tasksForWeekConnectionIndicator) {
+		this.tasksForWeekConnectionIndicator = tasksForWeekConnectionIndicator;
+	}
+
+	public JPanel getRepeatingTasksConnectionIndicator() {
+		return repeatingTasksConnectionIndicator;
+	}
+
+	public void setRepeatingTasksConnectionIndicator(JPanel repeatingTasksConnectionIndicator) {
+		this.repeatingTasksConnectionIndicator = repeatingTasksConnectionIndicator;
+	}
+
+	public JPanel getStatisticsConnectionIndicator() {
+		return statisticsConnectionIndicator;
+	}
+
+	public void setStatisticsConnectionIndicator(JPanel statisticsConnectionIndicator) {
+		this.statisticsConnectionIndicator = statisticsConnectionIndicator;
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.getContentPane().setBackground(new Color(255, 255, 255));
+		SpringLayout springLayout = new SpringLayout();
+		frame.getContentPane().setLayout(springLayout);
+		
+		JPanel modePanel = new JPanel();
+		modePanel.setBackground(new Color(128, 128, 128));
+		springLayout.putConstraint(SpringLayout.NORTH, modePanel, 0, SpringLayout.NORTH, frame.getContentPane());
+		springLayout.putConstraint(SpringLayout.WEST, modePanel, 0, SpringLayout.WEST, frame.getContentPane());
+		springLayout.putConstraint(SpringLayout.SOUTH, modePanel, 543, SpringLayout.NORTH, frame.getContentPane());
+		springLayout.putConstraint(SpringLayout.EAST, modePanel, 120, SpringLayout.WEST, frame.getContentPane());
+		frame.getContentPane().add(modePanel);
+		
+		leftCardLayoutPanel = new JPanel();
+		springLayout.putConstraint(SpringLayout.EAST, leftCardLayoutPanel, 0, SpringLayout.EAST, frame.getContentPane());
+		leftCardLayoutPanel.setBackground(new Color(64, 139, 64));
+		springLayout.putConstraint(SpringLayout.NORTH, leftCardLayoutPanel, 0, SpringLayout.NORTH, frame.getContentPane());
+		springLayout.putConstraint(SpringLayout.WEST, leftCardLayoutPanel, 0, SpringLayout.EAST, modePanel);
+		SpringLayout sl_modePanel = new SpringLayout();
+		modePanel.setLayout(sl_modePanel);
+		
+		JButton manageTasksWindowButton = new JButton("");
+		manageTasksWindowButton.addActionListener(new ManageTasksWindowButtonListener());
+		sl_modePanel.putConstraint(SpringLayout.NORTH, manageTasksWindowButton, 10, SpringLayout.NORTH, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.WEST, manageTasksWindowButton, 20, SpringLayout.WEST, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.SOUTH, manageTasksWindowButton, 90, SpringLayout.NORTH, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.EAST, manageTasksWindowButton, -20, SpringLayout.EAST, modePanel);
+		manageTasksWindowButton.setIcon(new ImageIcon(MainContentWindowView.class.getResource("/client/resources/Calendar.png")));
+		manageTasksWindowButton.setForeground(new Color(64, 139, 64));
+		manageTasksWindowButton.setBackground(new Color(64, 139, 64));
+		modePanel.add(manageTasksWindowButton);
+		
+		JButton exitButton = new JButton("");
+		exitButton.addActionListener(new ExitButtonListener());
+		exitButton.setIcon(new ImageIcon(MainContentWindowView.class.getResource("/client/resources/Exit.png")));
+		sl_modePanel.putConstraint(SpringLayout.NORTH, exitButton, -90, SpringLayout.SOUTH, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.WEST, exitButton, 20, SpringLayout.WEST, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.SOUTH, exitButton, -10, SpringLayout.SOUTH, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.EAST, exitButton, -20, SpringLayout.EAST, modePanel);
+		exitButton.setForeground(new Color(64, 139, 64));
+		exitButton.setBackground(new Color(64, 139, 64));
+		modePanel.add(exitButton);
+		
+		JButton tasksForDayWindowButton = new JButton("");
+		tasksForDayWindowButton.addActionListener(new TasksForDayWindowButtonListener());
+		tasksForDayWindowButton.setIcon(new ImageIcon(MainContentWindowView.class.getResource("/client/resources/Day.png")));
+		sl_modePanel.putConstraint(SpringLayout.NORTH, tasksForDayWindowButton, 6, SpringLayout.SOUTH, manageTasksWindowButton);
+		sl_modePanel.putConstraint(SpringLayout.WEST, tasksForDayWindowButton, 20, SpringLayout.WEST, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.SOUTH, tasksForDayWindowButton, 86, SpringLayout.SOUTH, manageTasksWindowButton);
+		sl_modePanel.putConstraint(SpringLayout.EAST, tasksForDayWindowButton, 100, SpringLayout.WEST, modePanel);
+		tasksForDayWindowButton.setForeground(new Color(64, 139, 64));
+		tasksForDayWindowButton.setBackground(new Color(64, 139, 64));
+		modePanel.add(tasksForDayWindowButton);
+		
+		JButton tasksForWeekWindowButton = new JButton("");
+		tasksForWeekWindowButton.addActionListener(new TasksForWeekWindowButtonListener());
+		tasksForWeekWindowButton.setIcon(new ImageIcon(MainContentWindowView.class.getResource("/client/resources/Week.png")));
+		sl_modePanel.putConstraint(SpringLayout.NORTH, tasksForWeekWindowButton, 6, SpringLayout.SOUTH, tasksForDayWindowButton);
+		sl_modePanel.putConstraint(SpringLayout.WEST, tasksForWeekWindowButton, 20, SpringLayout.WEST, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.SOUTH, tasksForWeekWindowButton, -281, SpringLayout.SOUTH, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.EAST, tasksForWeekWindowButton, 100, SpringLayout.WEST, modePanel);
+		tasksForWeekWindowButton.setForeground(new Color(64, 139, 64));
+		tasksForWeekWindowButton.setBackground(new Color(64, 139, 64));
+		modePanel.add(tasksForWeekWindowButton);
+		
+		JButton repeatingTaskWindowButton = new JButton("");
+		repeatingTaskWindowButton.addActionListener(new RepeatingTaskWindowButtonListener());
+		repeatingTaskWindowButton.setIcon(new ImageIcon(MainContentWindowView.class.getResource("/client/resources/Redo.png")));
+		sl_modePanel.putConstraint(SpringLayout.NORTH, repeatingTaskWindowButton, 6, SpringLayout.SOUTH, tasksForWeekWindowButton);
+		sl_modePanel.putConstraint(SpringLayout.WEST, repeatingTaskWindowButton, 21, SpringLayout.WEST, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.SOUTH, repeatingTaskWindowButton, -195, SpringLayout.SOUTH, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.EAST, repeatingTaskWindowButton, -19, SpringLayout.EAST, modePanel);
+		repeatingTaskWindowButton.setForeground(new Color(64, 139, 64));
+		repeatingTaskWindowButton.setBackground(new Color(64, 139, 64));
+		modePanel.add(repeatingTaskWindowButton);
+		
+		JButton statisticWindowButton = new JButton("");
+		statisticWindowButton.addActionListener(new StatisticsWindowButtonListener());
+		statisticWindowButton.setIcon(new ImageIcon(MainContentWindowView.class.getResource("/client/resources/Results.png")));
+		sl_modePanel.putConstraint(SpringLayout.NORTH, statisticWindowButton, 6, SpringLayout.SOUTH, repeatingTaskWindowButton);
+		sl_modePanel.putConstraint(SpringLayout.WEST, statisticWindowButton, 21, SpringLayout.WEST, modePanel);
+		sl_modePanel.putConstraint(SpringLayout.SOUTH, statisticWindowButton, -19, SpringLayout.NORTH, exitButton);
+		sl_modePanel.putConstraint(SpringLayout.EAST, statisticWindowButton, -19, SpringLayout.EAST, modePanel);
+		statisticWindowButton.setForeground(new Color(64, 139, 64));
+		statisticWindowButton.setBackground(new Color(64, 139, 64));
+		modePanel.add(statisticWindowButton);
+		springLayout.putConstraint(SpringLayout.SOUTH, leftCardLayoutPanel, 543, SpringLayout.NORTH, frame.getContentPane());
+		frame.getContentPane().add(leftCardLayoutPanel);
+		leftCardLayoutPanel.setLayout(new CardLayout(0, 0));
+		
+		JPanel chooseDatePanel = new JPanel();
+		chooseDatePanel.setBackground(new Color(64, 139, 64));
+		leftCardLayoutPanel.add(chooseDatePanel, "ManageTasksWindow");
+		SpringLayout sl_chooseDatePanel = new SpringLayout();
+		chooseDatePanel.setLayout(sl_chooseDatePanel);
+		
+		this.setChooseDateConnectionIndicator(new JPanel());
+		chooseDateConnectionIndicator.setBackground(Color.RED);
+		sl_chooseDatePanel.putConstraint(SpringLayout.NORTH, chooseDateConnectionIndicator, -40, SpringLayout.SOUTH, chooseDatePanel);
+		sl_chooseDatePanel.putConstraint(SpringLayout.WEST, chooseDateConnectionIndicator, -40, SpringLayout.EAST, chooseDatePanel);
+		sl_chooseDatePanel.putConstraint(SpringLayout.SOUTH, chooseDateConnectionIndicator, -10, SpringLayout.SOUTH, chooseDatePanel);
+		sl_chooseDatePanel.putConstraint(SpringLayout.EAST, chooseDateConnectionIndicator, -10, SpringLayout.EAST, chooseDatePanel);
+		chooseDatePanel.add(chooseDateConnectionIndicator);
+		
+		JCalendar calendar = new JCalendar();
+		sl_chooseDatePanel.putConstraint(SpringLayout.WEST, calendar, 10, SpringLayout.WEST, chooseDatePanel);
+		sl_chooseDatePanel.putConstraint(SpringLayout.SOUTH, calendar, -6, SpringLayout.NORTH, chooseDateConnectionIndicator);
+		sl_chooseDatePanel.putConstraint(SpringLayout.EAST, calendar, 0, SpringLayout.EAST, chooseDateConnectionIndicator);
+		calendar.getDayChooser().setAlwaysFireDayProperty(true);
+		calendar.setWeekOfYearVisible(false);
+		calendar.setDecorationBordersVisible(true);
+		calendar.getDayChooser().getDayPanel().setBackground(new Color(204, 245, 179));
+		calendar.setBackground(new Color(64, 139, 64));
+		calendar.setLocale(Locale.ENGLISH);
+		calendar.setFont(new Font("Comic Sans MS", Font.BOLD, 20));
+		calendar.getMonthChooser().getSpinner().setPreferredSize(new Dimension(100, 50));
+		calendar.getYearChooser().getSpinner().setPreferredSize(new Dimension(70, 50));
+		chooseDatePanel.add(calendar);
+		
+		JLabel lblNewLabel = new JLabel("Choose a date to manage your goals");
+		sl_chooseDatePanel.putConstraint(SpringLayout.NORTH, calendar, 6, SpringLayout.SOUTH, lblNewLabel);
+		sl_chooseDatePanel.putConstraint(SpringLayout.NORTH, lblNewLabel, 30, SpringLayout.NORTH, chooseDatePanel);
+		sl_chooseDatePanel.putConstraint(SpringLayout.WEST, lblNewLabel, 10, SpringLayout.WEST, chooseDatePanel);
+		sl_chooseDatePanel.putConstraint(SpringLayout.EAST, lblNewLabel, -10, SpringLayout.EAST, chooseDatePanel);
+		lblNewLabel.setFont(new Font("Comic Sans MS", Font.BOLD, 36));
+		chooseDatePanel.add(lblNewLabel);
+		
+		JPanel tasksForTodayPanel = new JPanel();
+		leftCardLayoutPanel.add(tasksForTodayPanel, "TasksForDayWindow");
+		SpringLayout sl_tasksForTodayPanel = new SpringLayout();
+		tasksForTodayPanel.setLayout(sl_tasksForTodayPanel);
+		
+		JLabel lblNewLabel_1 = new JLabel("New label");
+		sl_tasksForTodayPanel.putConstraint(SpringLayout.SOUTH, lblNewLabel_1, -201, SpringLayout.SOUTH, tasksForTodayPanel);
+		sl_tasksForTodayPanel.putConstraint(SpringLayout.EAST, lblNewLabel_1, -261, SpringLayout.EAST, tasksForTodayPanel);
+		tasksForTodayPanel.add(lblNewLabel_1);
+		
+		this.setTasksForTodayConnectionIndicator(new JPanel());
+		sl_tasksForTodayPanel.putConstraint(SpringLayout.NORTH, tasksForTodayConnectionIndicator, -40, SpringLayout.SOUTH, tasksForTodayPanel);
+		sl_tasksForTodayPanel.putConstraint(SpringLayout.WEST, tasksForTodayConnectionIndicator, -40, SpringLayout.EAST, tasksForTodayPanel);
+		sl_tasksForTodayPanel.putConstraint(SpringLayout.SOUTH, tasksForTodayConnectionIndicator, -10, SpringLayout.SOUTH, tasksForTodayPanel);
+		sl_tasksForTodayPanel.putConstraint(SpringLayout.EAST, tasksForTodayConnectionIndicator, -10, SpringLayout.EAST, tasksForTodayPanel);
+		tasksForTodayConnectionIndicator.setBackground(Color.RED);
+		tasksForTodayPanel.add(tasksForTodayConnectionIndicator);
+		
+		JPanel tasksForWeekPanel = new JPanel();
+		leftCardLayoutPanel.add(tasksForWeekPanel, "TasksForWeekWindow");
+		SpringLayout sl_tasksForWeekPanel = new SpringLayout();
+		tasksForWeekPanel.setLayout(sl_tasksForWeekPanel);
+		
+		JLabel lblNewLabel_2 = new JLabel("New label");
+		sl_tasksForWeekPanel.putConstraint(SpringLayout.WEST, lblNewLabel_2, 77, SpringLayout.WEST, tasksForWeekPanel);
+		sl_tasksForWeekPanel.putConstraint(SpringLayout.SOUTH, lblNewLabel_2, -102, SpringLayout.SOUTH, tasksForWeekPanel);
+		tasksForWeekPanel.add(lblNewLabel_2);
+		
+		this.setTasksForWeekConnectionIndicator(new JPanel());
+		sl_tasksForWeekPanel.putConstraint(SpringLayout.NORTH, tasksForWeekConnectionIndicator, -40, SpringLayout.SOUTH, tasksForWeekPanel);
+		sl_tasksForWeekPanel.putConstraint(SpringLayout.WEST, tasksForWeekConnectionIndicator, -40, SpringLayout.EAST, tasksForWeekPanel);
+		sl_tasksForWeekPanel.putConstraint(SpringLayout.SOUTH, tasksForWeekConnectionIndicator, -10, SpringLayout.SOUTH, tasksForWeekPanel);
+		sl_tasksForWeekPanel.putConstraint(SpringLayout.EAST, tasksForWeekConnectionIndicator, -10, SpringLayout.EAST, tasksForWeekPanel);
+		tasksForWeekConnectionIndicator.setBackground(Color.RED);
+		tasksForWeekPanel.add(tasksForWeekConnectionIndicator);
+		
+		JPanel repeatingTasksPanel = new JPanel();
+		leftCardLayoutPanel.add(repeatingTasksPanel, "RepeatingTasksWindow");
+		SpringLayout sl_repeatingTasksPanel = new SpringLayout();
+		repeatingTasksPanel.setLayout(sl_repeatingTasksPanel);
+		
+		JLabel lblNewLabel_3 = new JLabel("New label");
+		sl_repeatingTasksPanel.putConstraint(SpringLayout.NORTH, lblNewLabel_3, 170, SpringLayout.NORTH, repeatingTasksPanel);
+		sl_repeatingTasksPanel.putConstraint(SpringLayout.WEST, lblNewLabel_3, 342, SpringLayout.WEST, repeatingTasksPanel);
+		sl_repeatingTasksPanel.putConstraint(SpringLayout.SOUTH, lblNewLabel_3, 212, SpringLayout.NORTH, repeatingTasksPanel);
+		sl_repeatingTasksPanel.putConstraint(SpringLayout.EAST, lblNewLabel_3, -250, SpringLayout.EAST, repeatingTasksPanel);
+		repeatingTasksPanel.add(lblNewLabel_3);
+		
+		this.setRepeatingTasksConnectionIndicator(new JPanel());
+		sl_repeatingTasksPanel.putConstraint(SpringLayout.NORTH, repeatingTasksConnectionIndicator, -40, SpringLayout.SOUTH, repeatingTasksPanel);
+		sl_repeatingTasksPanel.putConstraint(SpringLayout.WEST, repeatingTasksConnectionIndicator, -40, SpringLayout.EAST, repeatingTasksPanel);
+		sl_repeatingTasksPanel.putConstraint(SpringLayout.SOUTH, repeatingTasksConnectionIndicator, -10, SpringLayout.SOUTH, repeatingTasksPanel);
+		sl_repeatingTasksPanel.putConstraint(SpringLayout.EAST, repeatingTasksConnectionIndicator, -10, SpringLayout.EAST, repeatingTasksPanel);
+		repeatingTasksConnectionIndicator.setBackground(Color.RED);
+		repeatingTasksPanel.add(repeatingTasksConnectionIndicator);
+		
+		JPanel statisticsPanel = new JPanel();
+		statisticsPanel.setBackground(new Color(64, 139, 64));
+		leftCardLayoutPanel.add(statisticsPanel, "StatisticsWindow");
+		SpringLayout sl_statisticsPanel = new SpringLayout();
+		statisticsPanel.setLayout(sl_statisticsPanel);
+		
+		JButton btnNewButton = new JButton("New button");
+		sl_statisticsPanel.putConstraint(SpringLayout.WEST, btnNewButton, 121, SpringLayout.WEST, statisticsPanel);
+		sl_statisticsPanel.putConstraint(SpringLayout.SOUTH, btnNewButton, -159, SpringLayout.SOUTH, statisticsPanel);
+		statisticsPanel.add(btnNewButton);
+		
+		this.setStatisticsConnectionIndicator(new JPanel());
+		sl_statisticsPanel.putConstraint(SpringLayout.NORTH, statisticsConnectionIndicator, -40, SpringLayout.SOUTH, statisticsPanel);
+		sl_statisticsPanel.putConstraint(SpringLayout.WEST, statisticsConnectionIndicator, 626, SpringLayout.WEST, statisticsPanel);
+		sl_statisticsPanel.putConstraint(SpringLayout.SOUTH, statisticsConnectionIndicator, -10, SpringLayout.SOUTH, statisticsPanel);
+		sl_statisticsPanel.putConstraint(SpringLayout.EAST, statisticsConnectionIndicator, -10, SpringLayout.EAST, statisticsPanel);
+		statisticsConnectionIndicator.setBackground(Color.RED);
+		statisticsPanel.add(statisticsConnectionIndicator);
+		frame.setBounds(100, 100, 800, 580);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		calendar.addPropertyChangeListener(new ChooseNewDateInCalendarListener());
+		
+		this.setMainContWindowPres(new MainContentWindowPresenter(this)); // Must be at the very end of initialize()
+	}
+	
+	/**
+	 * Listener class for manageTasksWindowButton button
+	 */
+	private class ManageTasksWindowButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when manageTasksWindowButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			CardLayout cardLayout = (CardLayout) getLeftCardLayoutPanel().getLayout();
+			cardLayout.show(getLeftCardLayoutPanel(), "ManageTasksWindow");
+		}
+		
+	}
+	
+	/**
+	 * Listener class for tasksForDayWindowButton button
+	 */
+	private class TasksForDayWindowButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when tasksForDayWindowButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			CardLayout cardLayout = (CardLayout) getLeftCardLayoutPanel().getLayout();
+			cardLayout.show(getLeftCardLayoutPanel(), "TasksForDayWindow");
+		}
+		
+	}
+	
+	/**
+	 * Listener class for tasksForWeekWindowButton button
+	 */
+	private class TasksForWeekWindowButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when tasksForWeekWindowButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			CardLayout cardLayout = (CardLayout) getLeftCardLayoutPanel().getLayout();
+			cardLayout.show(getLeftCardLayoutPanel(), "TasksForWeekWindow");
+		}
+		
+	}
+	
+	/**
+	 * Listener class for repeatingTaskWindowButton button
+	 */
+	private class RepeatingTaskWindowButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when repeatingTaskWindowButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			CardLayout cardLayout = (CardLayout) getLeftCardLayoutPanel().getLayout();
+			cardLayout.show(getLeftCardLayoutPanel(), "RepeatingTasksWindow");
+		}
+		
+	}
+	
+	/**
+	 * Listener class for statisticsWindowButton button
+	 */
+	private class StatisticsWindowButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when statisticsWindowButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			CardLayout cardLayout = (CardLayout) getLeftCardLayoutPanel().getLayout();
+			cardLayout.show(getLeftCardLayoutPanel(), "StatisticsWindow");
+		}
+		
+	}
+	
+	/**
+	 * Listener class for exitButton button
+	 */
+	private class ExitButtonListener implements ActionListener{
+		
+		/**
+		 * Executes when exitButton button is pressed
+		 */
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			int responce = JOptionPane.showOptionDialog(frame, "Do you whish to exit from account?", "Exit?", 
+					                     JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE,
+					                     null, null, frame);
+			if(responce == JOptionPane.YES_OPTION) {
+				System.out.println("User choose yes option");
+				new LoginAndRegisterView();
+				frame.dispose();
+			} else {
+				System.out.println("User choose no option");
+			}
+		}
+		
+	}
+	
+	/**
+	 * Listener class for exitButton button
+	 */
+	private class ChooseNewDateInCalendarListener implements PropertyChangeListener{
+		
+		/**
+		 * Executes when exitButton button is pressed
+		 */
+		@Override
+        public void propertyChange(PropertyChangeEvent evt) {
+            // Check if the property changed is the "calendar" property
+            if ("calendar".equals(evt.getPropertyName())) {
+                // A new date was chosen, perform your action here
+            	JCalendar chosenDate = (JCalendar) evt.getSource();
+                System.out.println("New date chosen: " + chosenDate.getDate());
+            }
+        }
+		
+	}
+}

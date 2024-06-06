@@ -1,0 +1,26 @@
+package client.windows;
+
+import javax.swing.Timer;
+
+import client.manager.ThreadManager;
+import shared.messages.*;
+
+public class MainContentWindowPresenter {
+	private MainContentWindowView mainContView; // view for this presenter
+	private Message dataMessage; // message that will be sent to server
+	private CheckConnectionMessage checkConnectionMessage; // check connection message
+	private Timer updateDataTimer; // Timer that checks if data was updated
+	private Timer checkConnectionTimer; // Timer that checks if connection is available
+	private ThreadManager threadManager; // Thread manager to send messages to server
+	
+	public MainContentWindowPresenter(MainContentWindowView mainContView) {
+		super();
+		this.mainContView = mainContView;
+	}
+	
+	private void initialize() {
+		
+	}
+	
+	
+}

@@ -1,0 +1,22 @@
+package client.windows;
+
+public class LoginAndRegisterPresenter {
+	private LoginAndRegisterView LogRegViev; // view part for this presenter
+	
+
+	public LoginAndRegisterPresenter(LoginAndRegisterView logRegViev) {
+		super();
+		this.setLogRegViev(logRegWiev);
+	}
+
+	private LoginAndRegisterView getLogRegViev() {
+		return LogRegViev;
+	}
+
+	private void setLogRegViev(LoginAndRegisterView logRegViev) {
+		LogRegViev = logRegViev;
+	}
+	
+	
+
+}
