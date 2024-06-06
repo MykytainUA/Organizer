@@ -1,0 +1,494 @@
+2024-05-30 17:20:01:SERVER:Trying to launch a server...
+2024-05-30 17:20:01:SERVER:Server socket created successfully
+2024-05-30 17:20:01:DB_MANAGER:Connected to the database
+2024-05-30 17:20:01:SERVER:Server is launched
+2024-05-30 17:20:23:SERVER:SignInMessage received
+2024-05-30 17:20:23:SERVER:Message received:
+2024-05-30 17:20:23:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 17:20:40:SERVER:AddNewTaskMessage received
+2024-05-30 17:20:40:DABASE_MANAGER:Data inserted successfully
+2024-05-30 17:20:40:SERVER:Message received:
+2024-05-30 17:20:40:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:-1
+shared.classes.Task@48aca48b
+Date:Thu May 30 20:20:20 EEST 2024
+Title:Random task
+2024-05-30 17:21:52:SERVER:AddNewTaskMessage received
+2024-05-30 17:21:52:DABASE_MANAGER:Data inserted successfully
+2024-05-30 17:21:52:SERVER:Message received:
+2024-05-30 17:21:52:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:-1
+shared.classes.Task@352ff4da
+Date:Thu May 30 17:21:49 EEST 2024
+Title:yukyfuk
+2024-05-30 17:21:53:SERVER:AddNewTaskMessage received
+2024-05-30 17:21:53:SERVER:Message received:
+2024-05-30 17:21:53:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:DATE_ALREADY_OCCUPIED
+ID:-1
+shared.classes.Task@42b3b079
+Date:Thu May 30 17:21:49 EEST 2024
+Title:yukyfuk
+2024-05-30 17:23:15:SERVER:Trying to launch a server...
+2024-05-30 17:23:15:SERVER:Server socket created successfully
+2024-05-30 17:23:16:DB_MANAGER:Connected to the database
+2024-05-30 17:23:16:SERVER:Server is launched
+2024-05-30 17:23:30:SERVER:SignInMessage received
+2024-05-30 17:23:30:SERVER:Message received:
+2024-05-30 17:23:30:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 17:23:35:SERVER:AddNewTaskMessage received
+2024-05-30 17:23:40:DABASE_MANAGER:Data inserted successfully
+2024-05-30 17:23:40:SERVER:Message received:
+2024-05-30 17:23:40:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:-1
+shared.classes.Task@350aac89
+Date:Thu May 30 17:23:33 EEST 2024
+Title:rthrth
+2024-05-30 17:23:49:SERVER:AddNewTaskMessage received
+2024-05-30 17:23:49:DABASE_MANAGER:Data inserted successfully
+2024-05-30 17:23:49:SERVER:Message received:
+2024-05-30 17:23:49:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:-1
+shared.classes.Task@4a8355dd
+Date:Thu May 30 17:23:47 EEST 2024
+Title:ergerg
+2024-05-30 17:23:56:SERVER:AddNewTaskMessage received
+2024-05-30 17:26:27:SERVER:Trying to launch a server...
+2024-05-30 17:26:27:SERVER:Server socket created successfully
+2024-05-30 17:26:27:DB_MANAGER:Connected to the database
+2024-05-30 17:26:27:SERVER:Server is launched
+2024-05-30 17:26:43:SERVER:SignInMessage received
+2024-05-30 17:26:43:SERVER:Message received:
+2024-05-30 17:26:43:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 17:26:51:SERVER:AddNewTaskMessage received
+2024-05-30 17:26:58:DABASE_MANAGER:Data inserted successfully
+2024-05-30 17:26:58:SERVER:Message received:
+2024-05-30 17:26:58:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+shared.classes.Task@645aa696
+Date:Thu May 30 17:26:47 EEST 2024
+Title:wthrth
+2024-05-30 17:31:04:SERVER:AddNewTaskMessage received
+2024-05-30 17:31:04:DABASE_MANAGER:Data inserted successfully
+2024-05-30 17:31:04:SERVER:Message received:
+2024-05-30 17:31:04:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+shared.classes.Task@3f1c5af9
+Date:Thu May 30 15:00:00 EEST 2024
+Title:Work
+2024-05-30 17:31:37:SERVER:AddNewTaskMessage received
+2024-05-30 17:31:37:DABASE_MANAGER:Data inserted successfully
+2024-05-30 17:31:37:SERVER:Message received:
+2024-05-30 17:31:37:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+shared.classes.Task@10c8f62
+Date:Thu May 30 16:30:00 EEST 2024
+Title:Dinner
+2024-05-30 17:31:52:SERVER:AddNewTaskMessage received
+2024-05-30 17:31:52:DABASE_MANAGER:Data inserted successfully
+2024-05-30 17:31:52:SERVER:Message received:
+2024-05-30 17:31:52:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+shared.classes.Task@1950e8a6
+Date:Thu May 30 22:30:00 EEST 2024
+Title:Sleep
+2024-05-30 17:32:12:SERVER:AddNewTaskMessage received
+2024-05-30 17:32:12:DABASE_MANAGER:Data inserted successfully
+2024-05-30 17:32:12:SERVER:Message received:
+2024-05-30 17:32:12:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+shared.classes.Task@1c32886a
+Date:Thu May 30 08:00:00 EEST 2024
+Title:Wake up
+2024-05-30 17:32:20:SERVER:AddNewTaskMessage received
+2024-05-30 17:32:20:SERVER:Message received:
+2024-05-30 17:32:20:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:DATE_ALREADY_OCCUPIED
+ID:1
+shared.classes.Task@1051817b
+Date:Thu May 30 08:00:00 EEST 2024
+Title:Wake up
+2024-05-30 17:32:36:SERVER:AddNewTaskMessage received
+2024-05-30 17:32:36:SERVER:Message received:
+2024-05-30 17:32:36:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:DATE_ALREADY_OCCUPIED
+ID:1
+shared.classes.Task@6e33c391
+Date:Thu May 30 08:00:00 EEST 2024
+Title:Wake u
+2024-05-30 17:32:55:SERVER:AddNewTaskMessage received
+2024-05-30 17:32:55:DABASE_MANAGER:Data inserted successfully
+2024-05-30 17:32:55:SERVER:Message received:
+2024-05-30 17:32:55:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+shared.classes.Task@5af5def9
+Date:Thu May 30 09:00:00 EEST 2024
+Title:Jogging
+2024-05-30 17:44:27:SERVER:ERROR:IO error occured!!!
+2024-05-30 17:44:27:Message object:
+Is data updated:true
+Request type:CHECK_CONNECTION
+Response state:ERROR
+2024-05-30 17:44:27:java.io.StreamCorruptedException: invalid stream header: 47455420
+2024-05-30 17:44:32:SERVER:ERROR:IO error occured!!!
+2024-05-30 17:44:32:Message object:
+Is data updated:true
+Request type:CHECK_CONNECTION
+Response state:ERROR
+2024-05-30 17:44:32:java.io.StreamCorruptedException: invalid stream header: 47455420
+2024-05-30 18:53:23:SERVER:SignInMessage received
+2024-05-30 18:53:23:SERVER:Message received:
+2024-05-30 18:53:23:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 18:59:36:SERVER:AddNewTaskMessage received
+2024-05-30 18:59:36:DABASE_MANAGER:Data inserted successfully
+2024-05-30 18:59:36:SERVER:Message received:
+2024-05-30 18:59:36:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+shared.classes.Task@109a2025
+Date:Thu May 30 20:10:10 EEST 2024
+Title:Programming
+2024-05-30 19:27:52:SERVER:Trying to launch a server...
+2024-05-30 19:27:52:SERVER:Server socket created successfully
+2024-05-30 19:27:52:DB_MANAGER:Connected to the database
+2024-05-30 19:27:52:SERVER:Server is launched
+2024-05-30 19:28:05:SERVER:SignInMessage received
+2024-05-30 19:28:05:SERVER:Message received:
+2024-05-30 19:28:05:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 19:41:24:SERVER:Trying to launch a server...
+2024-05-30 19:41:24:SERVER:Server socket created successfully
+2024-05-30 19:41:25:DB_MANAGER:Connected to the database
+2024-05-30 19:41:25:SERVER:Server is launched
+2024-05-30 19:41:47:SERVER:SignInMessage received
+2024-05-30 19:41:47:SERVER:Message received:
+2024-05-30 19:41:47:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 19:41:47:SERVER:GetAllTasksForThisUserMessage received
+2024-05-30 19:43:12:SERVER:Trying to launch a server...
+2024-05-30 19:43:12:SERVER:Server socket created successfully
+2024-05-30 19:43:13:DB_MANAGER:Connected to the database
+2024-05-30 19:43:13:SERVER:Server is launched
+2024-05-30 19:43:26:SERVER:SignInMessage received
+2024-05-30 19:43:26:SERVER:Message received:
+2024-05-30 19:43:26:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 19:43:27:SERVER:GetAllTasksForThisUserMessage received
+2024-05-30 19:43:27:DB_MANAGER:ERROR:Unable to execute SQL request!!!
+2024-05-30 19:43:27:java.sql.SQLDataException: Cannot convert string 'Work' to java.sql.Date value
+2024-05-30 19:44:24:SERVER:Trying to launch a server...
+2024-05-30 19:44:24:SERVER:Server socket created successfully
+2024-05-30 19:44:24:DB_MANAGER:Connected to the database
+2024-05-30 19:44:24:SERVER:Server is launched
+2024-05-30 19:44:41:SERVER:SignInMessage received
+2024-05-30 19:44:41:SERVER:Message received:
+2024-05-30 19:44:41:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 19:44:41:SERVER:GetAllTasksForThisUserMessage received
+2024-05-30 19:45:41:SERVER:Trying to launch a server...
+2024-05-30 19:45:41:SERVER:Server socket created successfully
+2024-05-30 19:45:41:DB_MANAGER:Connected to the database
+2024-05-30 19:45:41:SERVER:Server is launched
+2024-05-30 19:45:53:SERVER:SignInMessage received
+2024-05-30 19:45:53:SERVER:Message received:
+2024-05-30 19:45:53:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 19:45:53:SERVER:GetAllTasksForThisUserMessage received
+2024-05-30 19:58:28:SERVER:Trying to launch a server...
+2024-05-30 19:58:28:SERVER:Server socket created successfully
+2024-05-30 19:58:29:DB_MANAGER:Connected to the database
+2024-05-30 19:58:29:SERVER:Server is launched
+2024-05-30 19:58:43:SERVER:SignInMessage received
+2024-05-30 19:58:43:SERVER:Message received:
+2024-05-30 19:58:43:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 19:58:43:SERVER:GetAllTasksForThisUserMessage received
+2024-05-30 19:58:43:SERVER:Message received:
+2024-05-30 19:58:43:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[shared.classes.Task@6e6f2380
+Date:2024-05-30 15:00:00.0
+Title:Work, shared.classes.Task@76a4ebf2
+Date:2024-05-30 16:30:00.0
+Title:Dinner, shared.classes.Task@2e8c1c9b
+Date:2024-05-30 22:30:00.0
+Title:Sleep, shared.classes.Task@53fe15ff
+Date:2024-05-30 08:00:00.0
+Title:Wake up, shared.classes.Task@449a4f23
+Date:2024-05-30 09:00:00.0
+Title:Jogging, shared.classes.Task@1530c739
+Date:2024-05-30 20:10:10.0
+Title:Programming]
+2024-05-30 20:01:55:SERVER:SignInMessage received
+2024-05-30 20:01:55:SERVER:Message received:
+2024-05-30 20:01:55:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 20:01:55:SERVER:GetAllTasksForThisUserMessage received
+2024-05-30 20:01:55:SERVER:Message received:
+2024-05-30 20:01:55:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[shared.classes.Task@6be968ce
+Date:2024-05-30 15:00:00.0
+Title:Work, shared.classes.Task@7c37508a
+Date:2024-05-30 16:30:00.0
+Title:Dinner, shared.classes.Task@247310d0
+Date:2024-05-30 22:30:00.0
+Title:Sleep, shared.classes.Task@1033576a
+Date:2024-05-30 08:00:00.0
+Title:Wake up, shared.classes.Task@303cf2ba
+Date:2024-05-30 09:00:00.0
+Title:Jogging, shared.classes.Task@76494737
+Date:2024-05-30 20:10:10.0
+Title:Programming]
+2024-05-30 20:04:52:SERVER:SignInMessage received
+2024-05-30 20:04:52:SERVER:Message received:
+2024-05-30 20:04:52:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 20:04:52:SERVER:GetAllTasksForThisUserMessage received
+2024-05-30 20:04:52:SERVER:Message received:
+2024-05-30 20:04:52:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:WorkBoolean:false, Date:2024-05-30 16:30:00.0
+Title:DinnerBoolean:false, Date:2024-05-30 22:30:00.0
+Title:SleepBoolean:false, Date:2024-05-30 08:00:00.0
+Title:Wake upBoolean:false, Date:2024-05-30 09:00:00.0
+Title:JoggingBoolean:false, Date:2024-05-30 20:10:10.0
+Title:ProgrammingBoolean:false]
+2024-05-30 20:06:54:SERVER:SignInMessage received
+2024-05-30 20:06:54:SERVER:Message received:
+2024-05-30 20:06:54:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 20:06:54:SERVER:GetAllTasksForThisUserMessage received
+2024-05-30 20:06:54:SERVER:Message received:
+2024-05-30 20:06:54:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false]
+2024-05-30 20:07:43:SERVER:SignInMessage received
+2024-05-30 20:07:43:SERVER:Message received:
+2024-05-30 20:07:43:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 20:07:43:SERVER:GetAllTasksForThisUserMessage received
+2024-05-30 20:07:43:SERVER:Message received:
+2024-05-30 20:07:43:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+]
+2024-05-30 22:29:55:SERVER:Trying to launch a server...
+2024-05-30 22:29:55:SERVER:Server socket created successfully
+2024-05-30 22:29:56:DB_MANAGER:Connected to the database
+2024-05-30 22:29:56:SERVER:Server is launched
+2024-05-30 22:30:08:SERVER:SignInMessage received
+2024-05-30 22:30:08:SERVER:Message received:
+2024-05-30 22:30:08:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-30 22:30:08:SERVER:GetAllTasksForThisUserMessage received
+2024-05-30 22:30:08:SERVER:Message received:
+2024-05-30 22:30:08:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+]
+2024-05-30 22:32:27:SERVER:AddNewTaskMessage received
+2024-05-30 22:32:27:DABASE_MANAGER:Data inserted successfully
+2024-05-30 22:32:27:SERVER:Message received:
+2024-05-30 22:32:27:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Thu May 30 02:30:50 EEST 2024
+Title:Youtube
+Boolean:false
+
+2024-05-30 22:32:33:SERVER:AddNewTaskMessage received
+2024-05-30 22:32:33:SERVER:Message received:
+2024-05-30 22:32:33:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:DATE_ALREADY_OCCUPIED
+ID:1
+Task:Date:Thu May 30 02:30:50 EEST 2024
+Title:Youtube
+Boolean:false
+

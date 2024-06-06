@@ -1,0 +1,43 @@
+2024-05-10 14:55:35:SERVER:Trying to launch a server...
+2024-05-10 14:55:36:SERVER:Server socket created successfully
+2024-05-10 14:55:36:DB_MANAGER:ERROR:Could not connect to the database!!!
+2024-05-10 14:55:36:com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-05-10 14:55:36:SERVER:Server is launched
+2024-05-10 14:55:43:SERVER:Trying to launch a server...
+2024-05-10 14:55:43:SERVER:Server socket created successfully
+2024-05-10 14:55:44:DB_MANAGER:Connected to the database
+2024-05-10 14:55:44:SERVER:Server is launched
+2024-05-10 15:16:33:SERVER:SignInMessage received
+2024-05-10 15:16:33:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-10 15:19:41:SERVER:SignInMessage received
+2024-05-10 15:19:41:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:MykyaInUA
+Password:1234567890
+ID:-1
+2024-05-10 15:19:46:SERVER:SignInMessage received
+2024-05-10 15:19:46:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-10 15:20:06:SERVER:Trying to launch a server...
+2024-05-10 15:20:06:SERVER:Server socket created successfully
+2024-05-10 15:20:07:DB_MANAGER:Connected to the database
+2024-05-10 15:20:07:SERVER:Server is launched
+2024-05-10 15:20:40:SERVER:Trying to launch a server...
+2024-05-10 15:20:41:SERVER:Server socket created successfully
+2024-05-10 15:20:41:DB_MANAGER:Connected to the database
+2024-05-10 15:20:41:SERVER:Server is launched

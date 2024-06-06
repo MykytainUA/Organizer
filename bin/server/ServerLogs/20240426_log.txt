@@ -1,0 +1,80 @@
+2024-04-26 00:51:41:SERVER:Trying to launch a server...
+2024-04-26 00:51:41:SERVER:Server socket created successfully
+2024-04-26 00:51:42:DB_MANAGER:Connected to the database
+2024-04-26 00:51:42:SERVER:Server is launched
+2024-04-26 00:52:05:SERVER:SignInMessage received
+2024-04-26 00:52:05:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUa
+Password:1234567890
+ID:1
+2024-04-26 00:52:14:SERVER:SignInMessage received
+2024-04-26 00:52:14:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:qwerty
+Password:32564326
+ID:-1
+2024-04-26 15:25:27:SERVER:Trying to launch a server...
+2024-04-26 15:25:27:SERVER:Server socket created successfully
+2024-04-26 15:25:27:DB_MANAGER:Connected to the database
+2024-04-26 15:25:27:SERVER:Server is launched
+2024-04-26 15:41:30:SERVER:Trying to launch a server...
+2024-04-26 15:41:30:SERVER:Server socket created successfully
+2024-04-26 15:41:31:DB_MANAGER:Connected to the database
+2024-04-26 15:41:31:SERVER:Server is launched
+2024-04-26 15:41:40:SERVER:Trying to launch a server...
+2024-04-26 15:41:40:SERVER:ERROR:Could not create a server socket!!!
+2024-04-26 15:41:40:java.net.BindException: Address already in use: bind
+2024-04-26 15:41:41:DB_MANAGER:Connected to the database
+2024-04-26 15:41:41:SERVER:Server is launched
+2024-04-26 15:41:55:SERVER:Trying to launch a server...
+2024-04-26 15:41:55:SERVER:Server socket created successfully
+2024-04-26 15:41:55:DB_MANAGER:Connected to the database
+2024-04-26 15:41:55:SERVER:Server is launched
+2024-04-26 15:42:37:SERVER:SignInMessage received
+2024-04-26 15:42:37:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-04-26 15:43:13:SERVER:SignUpMessage received
+2024-04-26 15:43:13:DABASE_MANAGER:Data inserted successfully
+2024-04-26 15:43:13:SERVER:Message received:
+2024-04-26 15:43:13:Message object:
+Is data updated:true
+Request type:SIGN_UP
+Response state:SUCCESS
+Login:IPZTEST
+Password:348638475023
+ID:1
+2024-04-26 15:43:34:SERVER:SignInMessage received
+2024-04-26 15:43:34:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:IPZTEST
+Password:348638475023 
+ID:-1
+2024-04-26 15:44:10:SERVER:SignInMessage received
+2024-04-26 15:44:10:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:IPZTEST
+Password:348638475023
+ID:9
+2024-04-26 15:44:58:SERVER:Trying to launch a server...
+2024-04-26 15:44:58:SERVER:Server socket created successfully
+2024-04-26 15:44:59:DB_MANAGER:Connected to the database
+2024-04-26 15:44:59:SERVER:Server is launched
+2024-04-26 15:50:55:SERVER:Trying to launch a server...
+2024-04-26 15:50:55:SERVER:ERROR:Could not create a server socket!!!
+2024-04-26 15:50:55:java.net.BindException: Address already in use: bind
+2024-04-26 15:50:55:DB_MANAGER:Connected to the database
+2024-04-26 15:50:55:SERVER:Server is launched

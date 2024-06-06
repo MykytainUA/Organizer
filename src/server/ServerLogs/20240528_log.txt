@@ -1,0 +1,96 @@
+2024-05-28 21:31:58:SERVER:Trying to launch a server...
+2024-05-28 21:31:58:SERVER:Server socket created successfully
+2024-05-28 21:31:59:DB_MANAGER:Connected to the database
+2024-05-28 21:31:59:SERVER:Server is launched
+2024-05-28 21:32:19:SERVER:SignInMessage received
+2024-05-28 21:32:19:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-28 22:02:05:SERVER:Trying to launch a server...
+2024-05-28 22:02:05:SERVER:Server socket created successfully
+2024-05-28 22:02:05:DB_MANAGER:Connected to the database
+2024-05-28 22:02:05:SERVER:Server is launched
+2024-05-28 22:02:22:SERVER:SignInMessage received
+2024-05-28 22:02:22:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-28 22:04:16:SERVER:SignInMessage received
+2024-05-28 22:04:16:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-28 22:06:01:SERVER:SignInMessage received
+2024-05-28 22:06:01:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-28 22:10:24:SERVER:SignInMessage received
+2024-05-28 22:10:24:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-28 22:42:32:SERVER:SignInMessage received
+2024-05-28 22:42:32:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-28 22:44:07:SERVER:SignInMessage received
+2024-05-28 22:44:07:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-28 22:47:37:SERVER:SignInMessage received
+2024-05-28 22:47:37:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-28 22:50:33:SERVER:SignInMessage received
+2024-05-28 22:50:33:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-28 22:54:55:SERVER:SignInMessage received
+2024-05-28 22:54:55:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-28 23:26:14:SERVER:SignInMessage received
+2024-05-28 23:26:14:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1

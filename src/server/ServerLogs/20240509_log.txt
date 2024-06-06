@@ -1,0 +1,104 @@
+2024-05-09 14:19:39:SERVER:Trying to launch a server...
+2024-05-09 14:19:39:SERVER:Server socket created successfully
+2024-05-09 14:19:39:DB_MANAGER:Connected to the database
+2024-05-09 14:19:39:SERVER:Server is launched
+2024-05-09 14:26:00:SERVER:SignInMessage received
+2024-05-09 14:26:00:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 14:27:16:SERVER:SignInMessage received
+2024-05-09 14:27:16:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 14:35:22:SERVER:SignInMessage received
+2024-05-09 14:35:22:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 14:40:33:SERVER:SignInMessage received
+2024-05-09 14:40:33:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 14:45:27:SERVER:SignInMessage received
+2024-05-09 14:45:27:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 14:46:10:SERVER:SignInMessage received
+2024-05-09 14:46:10:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 17:35:51:SERVER:SignInMessage received
+2024-05-09 17:35:51:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 17:37:45:SERVER:SignInMessage received
+2024-05-09 17:37:45:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 17:40:54:SERVER:SignInMessage received
+2024-05-09 17:40:54:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 18:21:41:SERVER:Trying to launch a server...
+2024-05-09 18:21:41:SERVER:Server socket created successfully
+2024-05-09 18:21:41:DB_MANAGER:Connected to the database
+2024-05-09 18:21:41:SERVER:Server is launched
+2024-05-09 18:22:01:SERVER:SignInMessage received
+2024-05-09 18:22:01:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 19:18:41:SERVER:SignInMessage received
+2024-05-09 19:18:41:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-09 19:43:10:SERVER:SignInMessage received
+2024-05-09 19:43:10:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1

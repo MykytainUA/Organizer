@@ -1,0 +1,1331 @@
+2024-06-06 00:57:39:SERVER:Trying to launch a server...
+2024-06-06 00:57:39:SERVER:Server socket created successfully
+2024-06-06 00:57:40:DB_MANAGER:Connected to the database
+2024-06-06 00:57:40:SERVER:Server is launched
+2024-06-06 00:58:16:SERVER:SignInMessage received
+2024-06-06 00:58:16:SERVER:Message received:
+2024-06-06 00:58:16:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 00:58:16:SERVER:SignInMessage received
+2024-06-06 00:58:16:SERVER:Message received:
+2024-06-06 00:58:16:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 00:58:16:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 00:58:16:SERVER:Message received:
+2024-06-06 00:58:16:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+]
+2024-06-06 00:58:24:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 00:58:24:SERVER:Message received:
+2024-06-06 00:58:24:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+]
+2024-06-06 00:58:27:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 00:58:27:SERVER:Message received:
+2024-06-06 00:58:27:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+]
+2024-06-06 00:58:38:SERVER:AddNewTaskMessage received
+2024-06-06 00:58:39:DABASE_MANAGER:Data inserted successfully
+2024-06-06 00:58:39:SERVER:Message received:
+2024-06-06 00:58:39:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Fri Jun 07 00:58:33 EEST 2024
+Title:Test
+Boolean:false
+
+2024-06-06 00:58:39:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 00:58:39:SERVER:Message received:
+2024-06-06 00:58:39:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 00:58:43:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 00:58:43:SERVER:Message received:
+2024-06-06 00:58:43:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:01:31:SERVER:Trying to launch a server...
+2024-06-06 01:01:31:SERVER:Server socket created successfully
+2024-06-06 01:01:31:DB_MANAGER:Connected to the database
+2024-06-06 01:01:31:SERVER:Server is launched
+2024-06-06 01:01:51:SERVER:SignInMessage received
+2024-06-06 01:01:51:SERVER:Message received:
+2024-06-06 01:01:51:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 01:01:52:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:01:52:SERVER:Message received:
+2024-06-06 01:01:52:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:04:33:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:04:33:SERVER:Message received:
+2024-06-06 01:04:33:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:04:36:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:04:36:SERVER:Message received:
+2024-06-06 01:04:36:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:05:14:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:05:14:SERVER:Message received:
+2024-06-06 01:05:14:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:05:20:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:05:20:SERVER:Message received:
+2024-06-06 01:05:20:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:05:22:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:05:22:SERVER:Message received:
+2024-06-06 01:05:22:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:05:27:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:05:27:SERVER:Message received:
+2024-06-06 01:05:27:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:05:42:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:05:42:SERVER:Message received:
+2024-06-06 01:05:42:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:07:17:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:07:17:SERVER:Message received:
+2024-06-06 01:07:17:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:07:19:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:07:19:SERVER:Message received:
+2024-06-06 01:07:19:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:07:23:SERVER:AddNewTaskMessage received
+2024-06-06 01:07:23:DABASE_MANAGER:Data inserted successfully
+2024-06-06 01:07:23:SERVER:Message received:
+2024-06-06 01:07:23:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Thu Jun 06 01:07:20 EEST 2024
+Title:tfhrth
+Boolean:false
+
+2024-06-06 01:07:23:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:07:23:SERVER:Message received:
+2024-06-06 01:07:23:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+, Date:2024-06-06 01:07:20.0
+Title:tfhrth
+Boolean:false
+]
+2024-06-06 01:07:34:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:07:34:SERVER:Message received:
+2024-06-06 01:07:34:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+, Date:2024-06-06 01:07:20.0
+Title:tfhrth
+Boolean:false
+]
+2024-06-06 01:07:41:DABASE_MANAGER:Data inserted successfully
+2024-06-06 01:07:41:SERVER:Message received:
+2024-06-06 01:07:41:Message object:
+Is data updated:true
+Request type:DELETE_TASKS
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Thu Jun 06 01:07:20 EEST 2024
+Title:tfhrth
+Boolean:false
+]
+2024-06-06 01:07:42:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:07:42:SERVER:Message received:
+2024-06-06 01:07:42:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:14:57:SERVER:SignInMessage received
+2024-06-06 01:14:57:SERVER:Message received:
+2024-06-06 01:14:57:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 01:14:58:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:14:58:SERVER:Message received:
+2024-06-06 01:14:58:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:15:08:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:15:08:SERVER:Message received:
+2024-06-06 01:15:08:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:15:10:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:15:10:SERVER:Message received:
+2024-06-06 01:15:10:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:15:18:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:15:18:SERVER:Message received:
+2024-06-06 01:15:18:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:15:24:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:15:24:SERVER:Message received:
+2024-06-06 01:15:24:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 01:15:26:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 01:15:26:SERVER:Message received:
+2024-06-06 01:15:26:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:12:14:SERVER:Trying to launch a server...
+2024-06-06 20:12:14:SERVER:Server socket created successfully
+2024-06-06 20:12:14:DB_MANAGER:Connected to the database
+2024-06-06 20:12:14:SERVER:Server is launched
+2024-06-06 20:12:25:SERVER:SignInMessage received
+2024-06-06 20:12:25:SERVER:Message received:
+2024-06-06 20:12:25:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:12:25:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:12:25:SERVER:Message received:
+2024-06-06 20:12:25:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:13:17:SERVER:Trying to launch a server...
+2024-06-06 20:13:17:SERVER:Server socket created successfully
+2024-06-06 20:13:18:DB_MANAGER:Connected to the database
+2024-06-06 20:13:18:SERVER:Server is launched
+2024-06-06 20:13:31:SERVER:SignInMessage received
+2024-06-06 20:13:31:SERVER:Message received:
+2024-06-06 20:13:31:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:13:31:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:13:31:SERVER:Message received:
+2024-06-06 20:13:31:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:14:40:SERVER:SignInMessage received
+2024-06-06 20:14:40:SERVER:Message received:
+2024-06-06 20:14:40:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:MykytaInUA
+Password:123456790
+ID:-1
+2024-06-06 20:14:47:SERVER:SignInMessage received
+2024-06-06 20:14:47:SERVER:Message received:
+2024-06-06 20:14:47:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:14:47:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:14:47:SERVER:Message received:
+2024-06-06 20:14:47:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:17:37:SERVER:SignInMessage received
+2024-06-06 20:17:37:SERVER:Message received:
+2024-06-06 20:17:37:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:17:37:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:17:37:SERVER:Message received:
+2024-06-06 20:17:37:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:18:21:SERVER:SignInMessage received
+2024-06-06 20:18:21:SERVER:Message received:
+2024-06-06 20:18:21:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:18:22:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:18:22:SERVER:Message received:
+2024-06-06 20:18:22:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:18:45:SERVER:SignInMessage received
+2024-06-06 20:18:45:SERVER:Message received:
+2024-06-06 20:18:45:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:18:46:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:18:46:SERVER:Message received:
+2024-06-06 20:18:46:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:21:12:SERVER:SignInMessage received
+2024-06-06 20:21:12:SERVER:Message received:
+2024-06-06 20:21:12:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:22:06:SERVER:SignInMessage received
+2024-06-06 20:22:06:SERVER:Message received:
+2024-06-06 20:22:06:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:22:50:SERVER:SignInMessage received
+2024-06-06 20:22:50:SERVER:Message received:
+2024-06-06 20:22:50:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:22:51:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:22:51:SERVER:Message received:
+2024-06-06 20:22:51:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:25:47:SERVER:SignInMessage received
+2024-06-06 20:25:47:SERVER:Message received:
+2024-06-06 20:25:47:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:26:18:SERVER:SignInMessage received
+2024-06-06 20:26:18:SERVER:Message received:
+2024-06-06 20:26:18:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:26:18:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:26:18:SERVER:Message received:
+2024-06-06 20:26:18:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:26:20:SERVER:SignInMessage received
+2024-06-06 20:26:20:SERVER:Message received:
+2024-06-06 20:26:20:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:26:43:SERVER:SignInMessage received
+2024-06-06 20:26:43:SERVER:Message received:
+2024-06-06 20:26:43:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:26:44:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:26:44:SERVER:Message received:
+2024-06-06 20:26:44:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:28:04:SERVER:SignInMessage received
+2024-06-06 20:28:04:SERVER:Message received:
+2024-06-06 20:28:04:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:28:04:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:28:04:SERVER:Message received:
+2024-06-06 20:28:04:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:29:23:SERVER:SignInMessage received
+2024-06-06 20:29:23:SERVER:Message received:
+2024-06-06 20:29:23:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:29:23:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:29:23:SERVER:Message received:
+2024-06-06 20:29:23:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:29:28:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:29:28:SERVER:Message received:
+2024-06-06 20:29:28:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:31:14:SERVER:SignInMessage received
+2024-06-06 20:31:14:SERVER:Message received:
+2024-06-06 20:31:14:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:MykytaInUA
+Password:123456790
+ID:-1
+2024-06-06 20:31:24:SERVER:SignInMessage received
+2024-06-06 20:31:24:SERVER:Message received:
+2024-06-06 20:31:24:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-06 20:31:25:SERVER:GetAllTasksForThisUserMessage received
+2024-06-06 20:31:25:SERVER:Message received:
+2024-06-06 20:31:25:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-05 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-06 20:00:00.0
+Title:Studying
+Boolean:true
+, Date:2024-06-07 20:00:00.0
+Title:Studying
+Boolean:false
+, Date:2024-06-05 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-06 21:00:00.0
+Title:Programming
+Boolean:true
+, Date:2024-06-07 21:00:00.0
+Title:Programming
+Boolean:false
+, Date:2024-06-07 00:58:33.0
+Title:Test
+Boolean:false
+]
+2024-06-06 20:42:48:SERVER:ERROR:IO error occured!!!
+2024-06-06 20:42:48:Message object:
+Is data updated:true
+Request type:CHECK_CONNECTION
+Response state:ERROR
+2024-06-06 20:42:48:java.io.StreamCorruptedException: invalid stream header: 47455420
+2024-06-06 20:42:53:SERVER:ERROR:IO error occured!!!
+2024-06-06 20:42:53:Message object:
+Is data updated:true
+Request type:CHECK_CONNECTION
+Response state:ERROR
+2024-06-06 20:42:53:java.io.StreamCorruptedException: invalid stream header: 47455420

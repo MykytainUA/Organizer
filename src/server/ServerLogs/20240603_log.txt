@@ -1,0 +1,4783 @@
+2024-06-03 00:15:45:SERVER:Trying to launch a server...
+2024-06-03 00:15:45:SERVER:Server socket created successfully
+2024-06-03 00:15:45:DB_MANAGER:Connected to the database
+2024-06-03 00:15:45:SERVER:Server is launched
+2024-06-03 00:15:55:SERVER:SignInMessage received
+2024-06-03 00:15:55:SERVER:Message received:
+2024-06-03 00:15:55:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 00:15:55:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:15:55:SERVER:Message received:
+2024-06-03 00:15:55:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:true
+, Date:2024-05-30 01:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-05-30 04:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 00:16:03:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:16:03:SERVER:Message received:
+2024-06-03 00:16:03:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:true
+, Date:2024-05-30 01:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-05-30 04:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 00:16:17:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:16:17:SERVER:Message received:
+2024-06-03 00:16:17:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:true
+, Date:2024-05-30 01:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-05-30 04:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 00:16:57:SERVER:AddNewTaskMessage received
+2024-06-03 00:16:57:DABASE_MANAGER:Data inserted successfully
+2024-06-03 00:16:57:SERVER:Message received:
+2024-06-03 00:16:57:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Thu May 30 01:00:00 EEST 2024
+Title:Party
+Boolean:false
+
+2024-06-03 00:16:57:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:16:57:SERVER:Message received:
+2024-06-03 00:16:57:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:true
+, Date:2024-05-30 01:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-05-30 04:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+, Date:2024-05-30 01:00:00.0
+Title:Party
+Boolean:false
+]
+2024-06-03 00:17:12:DABASE_MANAGER:Data inserted successfully
+2024-06-03 00:17:12:SERVER:Message received:
+2024-06-03 00:17:12:Message object:
+Is data updated:true
+Request type:MAKE_TASKS_COMPLETED
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Thu May 30 01:00:00 EEST 2024
+Title:Party
+Boolean:false
+]
+2024-06-03 00:17:12:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:17:12:SERVER:Message received:
+2024-06-03 00:17:12:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:true
+, Date:2024-05-30 01:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-05-30 04:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+, Date:2024-05-30 01:00:00.0
+Title:Party
+Boolean:true
+]
+2024-06-03 00:17:22:DABASE_MANAGER:Data inserted successfully
+2024-06-03 00:17:22:SERVER:Message received:
+2024-06-03 00:17:22:Message object:
+Is data updated:true
+Request type:MAKE_TASKS_COMPLETED
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Thu May 30 01:00:00 EEST 2024
+Title:Party
+Boolean:true
+, Date:Thu May 30 01:56:57 EEST 2024
+Title:gergaergaerg
+Boolean:true
+, Date:Thu May 30 04:56:57 EEST 2024
+Title:gergaergaerg
+Boolean:true
+, Date:Thu May 30 23:56:57 EEST 2024
+Title:gergaerg
+Boolean:true
+]
+2024-06-03 00:17:22:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:17:22:SERVER:Message received:
+2024-06-03 00:17:22:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-05-30 01:56:57.0
+Title:gergaergaerg
+Boolean:false
+, Date:2024-05-30 04:56:57.0
+Title:gergaergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+, Date:2024-05-30 01:00:00.0
+Title:Party
+Boolean:false
+]
+2024-06-03 00:17:26:DABASE_MANAGER:Data inserted successfully
+2024-06-03 00:17:26:SERVER:Message received:
+2024-06-03 00:17:26:Message object:
+Is data updated:true
+Request type:MAKE_TASKS_COMPLETED
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Thu May 30 01:00:00 EEST 2024
+Title:Party
+Boolean:false
+, Date:Thu May 30 01:56:57 EEST 2024
+Title:gergaergaerg
+Boolean:false
+]
+2024-06-03 00:17:26:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:17:26:SERVER:Message received:
+2024-06-03 00:17:26:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-05-30 01:56:57.0
+Title:gergaergaerg
+Boolean:true
+, Date:2024-05-30 04:56:57.0
+Title:gergaergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+, Date:2024-05-30 01:00:00.0
+Title:Party
+Boolean:true
+]
+2024-06-03 00:17:28:DABASE_MANAGER:Data inserted successfully
+2024-06-03 00:17:28:SERVER:Message received:
+2024-06-03 00:17:28:Message object:
+Is data updated:true
+Request type:MAKE_TASKS_COMPLETED
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Thu May 30 01:00:00 EEST 2024
+Title:Party
+Boolean:true
+, Date:Thu May 30 01:56:57 EEST 2024
+Title:gergaergaerg
+Boolean:true
+]
+2024-06-03 00:17:29:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:17:29:SERVER:Message received:
+2024-06-03 00:17:29:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-05-30 01:56:57.0
+Title:gergaergaerg
+Boolean:false
+, Date:2024-05-30 04:56:57.0
+Title:gergaergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+, Date:2024-05-30 01:00:00.0
+Title:Party
+Boolean:false
+]
+2024-06-03 00:17:30:DABASE_MANAGER:Data inserted successfully
+2024-06-03 00:17:30:SERVER:Message received:
+2024-06-03 00:17:30:Message object:
+Is data updated:true
+Request type:MAKE_TASKS_COMPLETED
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Thu May 30 01:00:00 EEST 2024
+Title:Party
+Boolean:false
+]
+2024-06-03 00:17:30:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:17:30:SERVER:Message received:
+2024-06-03 00:17:30:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-05-30 01:56:57.0
+Title:gergaergaerg
+Boolean:false
+, Date:2024-05-30 04:56:57.0
+Title:gergaergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+, Date:2024-05-30 01:00:00.0
+Title:Party
+Boolean:true
+]
+2024-06-03 00:17:35:DABASE_MANAGER:Data inserted successfully
+2024-06-03 00:17:35:SERVER:Message received:
+2024-06-03 00:17:35:Message object:
+Is data updated:true
+Request type:DELETE_TASKS
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Thu May 30 01:00:00 EEST 2024
+Title:Party
+Boolean:true
+]
+2024-06-03 00:17:37:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:17:37:SERVER:Message received:
+2024-06-03 00:17:37:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-05-30 01:56:57.0
+Title:gergaergaerg
+Boolean:false
+, Date:2024-05-30 04:56:57.0
+Title:gergaergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 00:17:46:DABASE_MANAGER:Data inserted successfully
+2024-06-03 00:17:46:SERVER:Message received:
+2024-06-03 00:17:46:Message object:
+Is data updated:true
+Request type:DELETE_TASKS
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Thu May 30 01:56:57 EEST 2024
+Title:gergaergaerg
+Boolean:false
+, Date:Thu May 30 04:56:57 EEST 2024
+Title:gergaergaerg
+Boolean:false
+]
+2024-06-03 00:17:47:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:17:47:SERVER:Message received:
+2024-06-03 00:17:47:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 00:17:55:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:17:55:SERVER:Message received:
+2024-06-03 00:17:55:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 00:17:57:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 00:17:57:SERVER:Message received:
+2024-06-03 00:17:57:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 16:34:51:SERVER:Trying to launch a server...
+2024-06-03 16:34:51:SERVER:Server socket created successfully
+2024-06-03 16:34:51:DB_MANAGER:ERROR:Could not connect to the database!!!
+2024-06-03 16:34:51:com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-06-03 16:34:51:SERVER:Server is launched
+2024-06-03 16:35:03:SERVER:Trying to launch a server...
+2024-06-03 16:35:03:SERVER:Server socket created successfully
+2024-06-03 16:35:03:DB_MANAGER:Connected to the database
+2024-06-03 16:35:03:SERVER:Server is launched
+2024-06-03 16:35:17:SERVER:SignInMessage received
+2024-06-03 16:35:17:SERVER:Message received:
+2024-06-03 16:35:17:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 16:35:17:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 16:35:17:SERVER:Message received:
+2024-06-03 16:35:17:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 16:53:36:SERVER:SignInMessage received
+2024-06-03 16:53:36:SERVER:Message received:
+2024-06-03 16:53:36:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 16:53:36:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 16:53:36:SERVER:Message received:
+2024-06-03 16:53:36:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 18:06:39:SERVER:ERROR:IO error occured!!!
+2024-06-03 18:06:39:Message object:
+Is data updated:true
+Request type:CHECK_CONNECTION
+Response state:ERROR
+2024-06-03 18:06:39:java.io.StreamCorruptedException: invalid stream header: 47455420
+2024-06-03 18:06:44:SERVER:ERROR:IO error occured!!!
+2024-06-03 18:06:44:Message object:
+Is data updated:true
+Request type:CHECK_CONNECTION
+Response state:ERROR
+2024-06-03 18:06:44:java.io.StreamCorruptedException: invalid stream header: 47455420
+2024-06-03 18:35:38:SERVER:Trying to launch a server...
+2024-06-03 18:35:38:SERVER:Server socket created successfully
+2024-06-03 18:35:39:DB_MANAGER:Connected to the database
+2024-06-03 18:35:39:SERVER:Server is launched
+2024-06-03 18:35:50:SERVER:SignInMessage received
+2024-06-03 18:35:50:SERVER:Message received:
+2024-06-03 18:35:50:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 18:35:51:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 18:35:51:SERVER:Message received:
+2024-06-03 18:35:51:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 18:35:57:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 18:35:57:SERVER:Message received:
+2024-06-03 18:35:57:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 20:16:19:SERVER:SignInMessage received
+2024-06-03 20:16:19:SERVER:Message received:
+2024-06-03 20:16:19:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 20:16:19:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:16:19:SERVER:Message received:
+2024-06-03 20:16:19:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 20:16:27:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:16:27:SERVER:Message received:
+2024-06-03 20:16:27:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 20:16:34:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:16:34:SERVER:Message received:
+2024-06-03 20:16:34:Message object:
+Is data updated:true
+Request type:MAKE_TASKS_COMPLETED
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Sun Jun 02 09:56:12 EEST 2024
+Title:dhrh
+Boolean:true
+, Date:Sun Jun 02 16:54:30 EEST 2024
+Title:rgbhgh
+Boolean:true
+]
+2024-06-03 20:16:34:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:16:34:SERVER:Message received:
+2024-06-03 20:16:34:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+]
+2024-06-03 20:17:37:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:17:37:SERVER:Message received:
+2024-06-03 20:17:37:Message object:
+Is data updated:true
+Request type:MAKE_TASKS_COMPLETED
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Sun Jun 02 09:56:12 EEST 2024
+Title:dhrh
+Boolean:false
+, Date:Sun Jun 02 16:54:30 EEST 2024
+Title:rgbhgh
+Boolean:false
+]
+2024-06-03 20:17:37:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:17:37:SERVER:Message received:
+2024-06-03 20:17:37:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 20:19:01:SERVER:SignInMessage received
+2024-06-03 20:19:01:SERVER:Message received:
+2024-06-03 20:19:01:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:MykytaInUA
+Password:123456790
+ID:-1
+2024-06-03 20:19:11:SERVER:SignInMessage received
+2024-06-03 20:19:11:SERVER:Message received:
+2024-06-03 20:19:11:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:MykytaInUA
+Password:123456790
+ID:-1
+2024-06-03 20:19:22:SERVER:SignInMessage received
+2024-06-03 20:19:22:SERVER:Message received:
+2024-06-03 20:19:22:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 20:19:22:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:19:22:SERVER:Message received:
+2024-06-03 20:19:22:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 20:19:27:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:19:27:SERVER:Message received:
+2024-06-03 20:19:27:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:true
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:true
+]
+2024-06-03 20:19:39:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:19:39:SERVER:Message received:
+2024-06-03 20:19:39:Message object:
+Is data updated:true
+Request type:MAKE_TASKS_COMPLETED
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Sun Jun 02 09:56:12 EEST 2024
+Title:dhrh
+Boolean:true
+, Date:Sun Jun 02 16:54:30 EEST 2024
+Title:rgbhgh
+Boolean:true
+]
+2024-06-03 20:19:39:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:19:39:SERVER:Message received:
+2024-06-03 20:19:39:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+]
+2024-06-03 20:19:59:SERVER:AddNewTaskMessage received
+2024-06-03 20:19:59:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:19:59:SERVER:Message received:
+2024-06-03 20:19:59:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Sun Jun 02 18:19:50 EEST 2024
+Title:tfyf5fxd
+Boolean:false
+
+2024-06-03 20:19:59:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:19:59:SERVER:Message received:
+2024-06-03 20:19:59:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+]
+2024-06-03 20:22:15:SERVER:SignInMessage received
+2024-06-03 20:22:15:SERVER:Message received:
+2024-06-03 20:22:15:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 20:22:15:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:22:15:SERVER:Message received:
+2024-06-03 20:22:15:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+]
+2024-06-03 20:22:17:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:22:17:SERVER:Message received:
+2024-06-03 20:22:17:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+]
+2024-06-03 20:25:39:SERVER:SignInMessage received
+2024-06-03 20:25:39:SERVER:Message received:
+2024-06-03 20:25:39:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 20:25:39:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:25:39:SERVER:Message received:
+2024-06-03 20:25:39:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+]
+2024-06-03 20:25:43:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:25:43:SERVER:Message received:
+2024-06-03 20:25:43:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+]
+2024-06-03 20:25:53:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:25:53:SERVER:Message received:
+2024-06-03 20:25:53:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+]
+2024-06-03 20:26:19:SERVER:AddNewTaskMessage received
+2024-06-03 20:26:19:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:26:19:SERVER:Message received:
+2024-06-03 20:26:19:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Mon Jun 03 21:26:10 EEST 2024
+Title:jngfijbn
+Boolean:false
+
+2024-06-03 20:26:19:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:26:19:SERVER:Message received:
+2024-06-03 20:26:19:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+]
+2024-06-03 20:26:25:SERVER:AddNewTaskMessage received
+2024-06-03 20:26:25:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:26:25:SERVER:Message received:
+2024-06-03 20:26:25:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Mon Jun 03 22:26:10 EEST 2024
+Title:jngfijbn
+Boolean:false
+
+2024-06-03 20:26:25:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:26:25:SERVER:Message received:
+2024-06-03 20:26:25:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:false
+]
+2024-06-03 20:26:27:SERVER:AddNewTaskMessage received
+2024-06-03 20:26:27:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:26:27:SERVER:Message received:
+2024-06-03 20:26:27:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Mon Jun 03 23:26:10 EEST 2024
+Title:jngfijbn
+Boolean:false
+
+2024-06-03 20:26:27:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:26:27:SERVER:Message received:
+2024-06-03 20:26:27:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:false
+]
+2024-06-03 20:26:34:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:26:34:SERVER:Message received:
+2024-06-03 20:26:34:Message object:
+Is data updated:true
+Request type:MAKE_TASKS_COMPLETED
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Mon Jun 03 22:26:10 EEST 2024
+Title:jngfijbn
+Boolean:false
+, Date:Mon Jun 03 23:26:10 EEST 2024
+Title:jngfijbn
+Boolean:false
+]
+2024-06-03 20:26:34:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:26:34:SERVER:Message received:
+2024-06-03 20:26:34:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+]
+2024-06-03 20:26:47:SERVER:AddNewTaskMessage received
+2024-06-03 20:26:47:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:26:47:SERVER:Message received:
+2024-06-03 20:26:47:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Mon Jun 03 19:26:41 EEST 2024
+Title:kit,mk
+Boolean:false
+
+2024-06-03 20:26:47:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:26:47:SERVER:Message received:
+2024-06-03 20:26:47:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+]
+2024-06-03 20:29:47:SERVER:SignInMessage received
+2024-06-03 20:29:47:SERVER:Message received:
+2024-06-03 20:29:47:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 20:29:47:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:29:47:SERVER:Message received:
+2024-06-03 20:29:47:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+]
+2024-06-03 20:30:16:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:30:16:SERVER:Message received:
+2024-06-03 20:30:16:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+]
+2024-06-03 20:30:16:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:30:16:SERVER:Message received:
+2024-06-03 20:30:16:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+]
+2024-06-03 20:30:17:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:30:17:SERVER:Message received:
+2024-06-03 20:30:17:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+]
+2024-06-03 20:30:19:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:30:19:SERVER:Message received:
+2024-06-03 20:30:19:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+]
+2024-06-03 20:30:20:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:30:20:SERVER:Message received:
+2024-06-03 20:30:20:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+]
+2024-06-03 20:30:27:SERVER:AddNewTaskMessage received
+2024-06-03 20:30:27:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:30:27:SERVER:Message received:
+2024-06-03 20:30:27:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Wed Jun 08 20:30:22 EEST 2022
+Title:dhsrthrth
+Boolean:false
+
+2024-06-03 20:30:27:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:30:27:SERVER:Message received:
+2024-06-03 20:30:27:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+]
+2024-06-03 20:30:46:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:30:46:SERVER:Message received:
+2024-06-03 20:30:46:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+]
+2024-06-03 20:30:46:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:30:46:SERVER:Message received:
+2024-06-03 20:30:46:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+]
+2024-06-03 20:30:52:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:30:52:SERVER:Message received:
+2024-06-03 20:30:52:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+]
+2024-06-03 20:30:54:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:30:54:SERVER:Message received:
+2024-06-03 20:30:54:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+]
+2024-06-03 20:31:03:SERVER:AddNewTaskMessage received
+2024-06-03 20:31:03:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:31:03:SERVER:Message received:
+2024-06-03 20:31:03:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Tue Jan 02 20:31:00 EET 2024
+Title:rtjtyj
+Boolean:false
+
+2024-06-03 20:31:03:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:31:03:SERVER:Message received:
+2024-06-03 20:31:03:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:false
+]
+2024-06-03 20:31:15:DABASE_MANAGER:Data inserted successfully
+2024-06-03 20:31:15:SERVER:Message received:
+2024-06-03 20:31:15:Message object:
+Is data updated:true
+Request type:MAKE_TASKS_COMPLETED
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Tue Jan 02 20:31:00 EET 2024
+Title:rtjtyj
+Boolean:false
+]
+2024-06-03 20:31:15:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 20:31:15:SERVER:Message received:
+2024-06-03 20:31:15:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 21:18:33:SERVER:SignInMessage received
+2024-06-03 21:18:33:SERVER:Message received:
+2024-06-03 21:18:33:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 21:18:33:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 21:18:33:SERVER:Message received:
+2024-06-03 21:18:33:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:01:37:SERVER:SignInMessage received
+2024-06-03 23:01:37:SERVER:Message received:
+2024-06-03 23:01:37:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:01:37:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:01:37:SERVER:Message received:
+2024-06-03 23:01:37:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:03:17:SERVER:SignInMessage received
+2024-06-03 23:03:17:SERVER:Message received:
+2024-06-03 23:03:17:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:03:17:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:03:17:SERVER:Message received:
+2024-06-03 23:03:17:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:03:55:SERVER:SignInMessage received
+2024-06-03 23:03:55:SERVER:Message received:
+2024-06-03 23:03:55:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:03:56:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:03:56:SERVER:Message received:
+2024-06-03 23:03:56:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:04:19:SERVER:SignInMessage received
+2024-06-03 23:04:19:SERVER:Message received:
+2024-06-03 23:04:19:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:04:20:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:04:20:SERVER:Message received:
+2024-06-03 23:04:20:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:23:17:SERVER:SignInMessage received
+2024-06-03 23:23:17:SERVER:Message received:
+2024-06-03 23:23:17:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:23:18:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:23:18:SERVER:Message received:
+2024-06-03 23:23:18:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:23:32:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:23:32:SERVER:Message received:
+2024-06-03 23:23:32:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:23:34:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:23:34:SERVER:Message received:
+2024-06-03 23:23:34:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:23:37:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:23:37:SERVER:Message received:
+2024-06-03 23:23:37:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:23:39:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:23:39:SERVER:Message received:
+2024-06-03 23:23:39:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:23:41:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:23:41:SERVER:Message received:
+2024-06-03 23:23:41:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:23:43:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:23:43:SERVER:Message received:
+2024-06-03 23:23:43:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:23:47:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:23:47:SERVER:Message received:
+2024-06-03 23:23:47:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:23:48:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:23:48:SERVER:Message received:
+2024-06-03 23:23:48:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:24:52:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:24:52:SERVER:Message received:
+2024-06-03 23:24:52:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:33:42:SERVER:SignInMessage received
+2024-06-03 23:33:42:SERVER:Message received:
+2024-06-03 23:33:42:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:33:42:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:33:42:SERVER:Message received:
+2024-06-03 23:33:42:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:33:50:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:33:50:SERVER:Message received:
+2024-06-03 23:33:50:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:34:00:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:34:00:SERVER:Message received:
+2024-06-03 23:34:00:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:34:04:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:34:04:SERVER:Message received:
+2024-06-03 23:34:04:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:34:13:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:34:13:SERVER:Message received:
+2024-06-03 23:34:13:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:35:12:SERVER:SignInMessage received
+2024-06-03 23:35:12:SERVER:Message received:
+2024-06-03 23:35:12:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:35:12:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:35:12:SERVER:Message received:
+2024-06-03 23:35:12:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:35:20:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:35:20:SERVER:Message received:
+2024-06-03 23:35:20:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:35:22:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:35:22:SERVER:Message received:
+2024-06-03 23:35:22:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:35:25:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:35:25:SERVER:Message received:
+2024-06-03 23:35:25:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:36:53:SERVER:SignInMessage received
+2024-06-03 23:36:53:SERVER:Message received:
+2024-06-03 23:36:53:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:36:54:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:36:54:SERVER:Message received:
+2024-06-03 23:36:54:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:37:47:SERVER:SignInMessage received
+2024-06-03 23:37:47:SERVER:Message received:
+2024-06-03 23:37:47:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:37:47:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:37:47:SERVER:Message received:
+2024-06-03 23:37:47:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:38:29:SERVER:SignInMessage received
+2024-06-03 23:38:29:SERVER:Message received:
+2024-06-03 23:38:29:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:38:29:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:38:29:SERVER:Message received:
+2024-06-03 23:38:29:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:39:01:SERVER:SignInMessage received
+2024-06-03 23:39:01:SERVER:Message received:
+2024-06-03 23:39:01:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:39:01:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:39:01:SERVER:Message received:
+2024-06-03 23:39:01:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:40:21:SERVER:SignInMessage received
+2024-06-03 23:40:21:SERVER:Message received:
+2024-06-03 23:40:21:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:40:21:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:40:21:SERVER:Message received:
+2024-06-03 23:40:21:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:41:23:SERVER:SignInMessage received
+2024-06-03 23:41:23:SERVER:Message received:
+2024-06-03 23:41:23:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:41:23:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:41:23:SERVER:Message received:
+2024-06-03 23:41:23:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:42:16:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:42:16:SERVER:Message received:
+2024-06-03 23:42:16:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:42:22:SERVER:AddNewTaskMessage received
+2024-06-03 23:42:22:DABASE_MANAGER:Data inserted successfully
+2024-06-03 23:42:22:SERVER:Message received:
+2024-06-03 23:42:22:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Tue Jun 04 23:42:19 EEST 2024
+Title:rthrth
+Boolean:false
+
+2024-06-03 23:42:22:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:42:22:SERVER:Message received:
+2024-06-03 23:42:22:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-04 23:42:19.0
+Title:rthrth
+Boolean:false
+]
+2024-06-03 23:42:32:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:42:32:SERVER:Message received:
+2024-06-03 23:42:32:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-04 23:42:19.0
+Title:rthrth
+Boolean:false
+]
+2024-06-03 23:42:35:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:42:35:SERVER:Message received:
+2024-06-03 23:42:35:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-04 23:42:19.0
+Title:rthrth
+Boolean:false
+]
+2024-06-03 23:42:40:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:42:40:SERVER:Message received:
+2024-06-03 23:42:40:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-04 23:42:19.0
+Title:rthrth
+Boolean:false
+]
+2024-06-03 23:42:40:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:42:40:SERVER:Message received:
+2024-06-03 23:42:40:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-04 23:42:19.0
+Title:rthrth
+Boolean:false
+]
+2024-06-03 23:44:41:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:44:41:SERVER:Message received:
+2024-06-03 23:44:41:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-04 23:42:19.0
+Title:rthrth
+Boolean:false
+]
+2024-06-03 23:44:46:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:44:46:SERVER:Message received:
+2024-06-03 23:44:46:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-04 23:42:19.0
+Title:rthrth
+Boolean:false
+]
+2024-06-03 23:44:47:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:44:47:SERVER:Message received:
+2024-06-03 23:44:47:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-04 23:42:19.0
+Title:rthrth
+Boolean:false
+]
+2024-06-03 23:44:49:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:44:49:SERVER:Message received:
+2024-06-03 23:44:49:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-04 23:42:19.0
+Title:rthrth
+Boolean:false
+]
+2024-06-03 23:44:52:DABASE_MANAGER:Data inserted successfully
+2024-06-03 23:44:52:SERVER:Message received:
+2024-06-03 23:44:52:Message object:
+Is data updated:true
+Request type:DELETE_TASKS
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Tue Jun 04 23:42:19 EEST 2024
+Title:rthrth
+Boolean:false
+]
+2024-06-03 23:44:53:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:44:53:SERVER:Message received:
+2024-06-03 23:44:53:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:45:18:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:45:18:SERVER:Message received:
+2024-06-03 23:45:18:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:45:57:SERVER:SignInMessage received
+2024-06-03 23:45:57:SERVER:Message received:
+2024-06-03 23:45:57:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:45:58:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:45:58:SERVER:Message received:
+2024-06-03 23:45:58:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:46:08:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:46:08:SERVER:Message received:
+2024-06-03 23:46:08:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:50:04:SERVER:SignInMessage received
+2024-06-03 23:50:04:SERVER:Message received:
+2024-06-03 23:50:04:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:MykytaInUA
+Password:123456790
+ID:-1
+2024-06-03 23:50:14:SERVER:SignInMessage received
+2024-06-03 23:50:14:SERVER:Message received:
+2024-06-03 23:50:14:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:NO_SUCH_ENTRY_IN_DATABASE
+Login:MykytaInUA
+Password:123456790
+ID:-1
+2024-06-03 23:50:25:SERVER:SignInMessage received
+2024-06-03 23:50:25:SERVER:Message received:
+2024-06-03 23:50:25:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:50:25:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:50:25:SERVER:Message received:
+2024-06-03 23:50:25:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:56:49:SERVER:SignInMessage received
+2024-06-03 23:56:49:SERVER:Message received:
+2024-06-03 23:56:49:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-03 23:56:50:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:56:50:SERVER:Message received:
+2024-06-03 23:56:50:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+]
+2024-06-03 23:57:05:SERVER:AddNewTaskMessage received
+2024-06-03 23:57:05:DABASE_MANAGER:Data inserted successfully
+2024-06-03 23:57:05:SERVER:Message received:
+2024-06-03 23:57:05:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Mon Jun 03 23:57:02 EEST 2024
+Title:rhrhy
+Boolean:false
+
+2024-06-03 23:57:05:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:05:SERVER:Message received:
+2024-06-03 23:57:05:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:12:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:12:SERVER:Message received:
+2024-06-03 23:57:12:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-02 16:54:30.0
+Title:rgbhgh
+Boolean:false
+, Date:2024-06-02 09:56:12.0
+Title:dhrh
+Boolean:false
+, Date:2024-06-02 18:19:50.0
+Title:tfyf5fxd
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:21:DABASE_MANAGER:Data inserted successfully
+2024-06-03 23:57:21:SERVER:Message received:
+2024-06-03 23:57:21:Message object:
+Is data updated:true
+Request type:DELETE_TASKS
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Sun Jun 02 09:56:12 EEST 2024
+Title:dhrh
+Boolean:false
+, Date:Sun Jun 02 16:54:30 EEST 2024
+Title:rgbhgh
+Boolean:false
+, Date:Sun Jun 02 18:19:50 EEST 2024
+Title:tfyf5fxd
+Boolean:false
+]
+2024-06-03 23:57:22:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:22:SERVER:Message received:
+2024-06-03 23:57:22:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:25:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:25:SERVER:Message received:
+2024-06-03 23:57:25:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:30:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:30:SERVER:Message received:
+2024-06-03 23:57:30:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:32:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:32:SERVER:Message received:
+2024-06-03 23:57:32:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:34:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:34:SERVER:Message received:
+2024-06-03 23:57:34:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 23:56:57.0
+Title:gergaerg
+Boolean:false
+, Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:37:DABASE_MANAGER:Data inserted successfully
+2024-06-03 23:57:37:SERVER:Message received:
+2024-06-03 23:57:37:Message object:
+Is data updated:true
+Request type:DELETE_TASKS
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Thu May 30 23:56:57 EEST 2024
+Title:gergaerg
+Boolean:false
+]
+2024-06-03 23:57:38:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:38:SERVER:Message received:
+2024-06-03 23:57:38:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:42:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:42:SERVER:Message received:
+2024-06-03 23:57:42:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:48:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:48:SERVER:Message received:
+2024-06-03 23:57:48:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:51:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:51:SERVER:Message received:
+2024-06-03 23:57:51:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:57:52:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:57:52:SERVER:Message received:
+2024-06-03 23:57:52:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+]
+2024-06-03 23:58:04:SERVER:AddNewTaskMessage received
+2024-06-03 23:58:04:DABASE_MANAGER:Data inserted successfully
+2024-06-03 23:58:04:SERVER:Message received:
+2024-06-03 23:58:04:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Sun Jun 02 23:58:01 EEST 2024
+Title:rgerger
+Boolean:false
+
+2024-06-03 23:58:04:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:58:04:SERVER:Message received:
+2024-06-03 23:58:04:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+]
+2024-06-03 23:58:09:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:58:09:SERVER:Message received:
+2024-06-03 23:58:09:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+]
+2024-06-03 23:58:16:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:58:16:SERVER:Message received:
+2024-06-03 23:58:16:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+]
+2024-06-03 23:58:26:SERVER:AddNewTaskMessage received
+2024-06-03 23:58:26:DABASE_MANAGER:Data inserted successfully
+2024-06-03 23:58:26:SERVER:Message received:
+2024-06-03 23:58:26:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Sun Jun 09 23:58:23 EEST 2024
+Title:aerahrth
+Boolean:false
+
+2024-06-03 23:58:26:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:58:26:SERVER:Message received:
+2024-06-03 23:58:26:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-09 23:58:23.0
+Title:aerahrth
+Boolean:false
+]
+2024-06-03 23:58:32:DABASE_MANAGER:Data inserted successfully
+2024-06-03 23:58:32:SERVER:Message received:
+2024-06-03 23:58:32:Message object:
+Is data updated:true
+Request type:DELETE_TASKS
+Response state:SUCCESS
+ID:1
+Tasks:[Date:Sun Jun 09 23:58:23 EEST 2024
+Title:aerahrth
+Boolean:false
+]
+2024-06-03 23:58:33:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:58:33:SERVER:Message received:
+2024-06-03 23:58:33:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+]
+2024-06-03 23:58:40:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:58:40:SERVER:Message received:
+2024-06-03 23:58:40:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+]
+2024-06-03 23:58:46:SERVER:AddNewTaskMessage received
+2024-06-03 23:58:46:DABASE_MANAGER:Data inserted successfully
+2024-06-03 23:58:46:SERVER:Message received:
+2024-06-03 23:58:46:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Mon Jun 10 23:58:43 EEST 2024
+Title:lh
+Boolean:false
+
+2024-06-03 23:58:46:SERVER:GetAllTasksForThisUserMessage received
+2024-06-03 23:58:46:SERVER:Message received:
+2024-06-03 23:58:46:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+]
+2024-06-04 00:00:07:SERVER:SignInMessage received
+2024-06-04 00:00:07:SERVER:Message received:
+2024-06-04 00:00:07:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-04 00:00:07:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:00:07:SERVER:Message received:
+2024-06-04 00:00:07:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+]
+2024-06-04 00:00:26:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:00:26:SERVER:Message received:
+2024-06-04 00:00:26:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+]
+2024-06-04 00:00:31:SERVER:AddNewTaskMessage received
+2024-06-04 00:00:31:DABASE_MANAGER:Data inserted successfully
+2024-06-04 00:00:31:SERVER:Message received:
+2024-06-04 00:00:31:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Wed Jun 05 00:00:27 EEST 2024
+Title:guyft
+Boolean:false
+
+2024-06-04 00:00:31:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:00:31:SERVER:Message received:
+2024-06-04 00:00:31:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+, Date:2024-06-05 00:00:27.0
+Title:guyft
+Boolean:false
+]
+2024-06-04 00:00:38:SERVER:AddNewTaskMessage received
+2024-06-04 00:00:38:DABASE_MANAGER:Data inserted successfully
+2024-06-04 00:00:38:SERVER:Message received:
+2024-06-04 00:00:38:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Wed Jun 05 00:00:35 EEST 2024
+Title:
+Boolean:false
+
+2024-06-04 00:00:38:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:00:38:SERVER:Message received:
+2024-06-04 00:00:38:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+, Date:2024-06-05 00:00:27.0
+Title:guyft
+Boolean:false
+, Date:2024-06-05 00:00:35.0
+Title:
+Boolean:false
+]
+2024-06-04 00:00:43:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:00:43:SERVER:Message received:
+2024-06-04 00:00:43:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+, Date:2024-06-05 00:00:27.0
+Title:guyft
+Boolean:false
+, Date:2024-06-05 00:00:35.0
+Title:
+Boolean:false
+]
+2024-06-04 00:00:44:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:00:44:SERVER:Message received:
+2024-06-04 00:00:44:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+, Date:2024-06-05 00:00:27.0
+Title:guyft
+Boolean:false
+, Date:2024-06-05 00:00:35.0
+Title:
+Boolean:false
+]
+2024-06-04 00:00:47:SERVER:AddNewTaskMessage received
+2024-06-04 00:00:47:DABASE_MANAGER:Data inserted successfully
+2024-06-04 00:00:47:SERVER:Message received:
+2024-06-04 00:00:47:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Mon Jun 03 00:00:46 EEST 2024
+Title:
+Boolean:false
+
+2024-06-04 00:00:47:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:00:47:SERVER:Message received:
+2024-06-04 00:00:47:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+, Date:2024-06-05 00:00:27.0
+Title:guyft
+Boolean:false
+, Date:2024-06-05 00:00:35.0
+Title:
+Boolean:false
+, Date:2024-06-03 00:00:46.0
+Title:
+Boolean:false
+]
+2024-06-04 00:00:47:SERVER:AddNewTaskMessage received
+2024-06-04 00:00:47:SERVER:Message received:
+2024-06-04 00:00:47:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:DATE_ALREADY_OCCUPIED
+ID:1
+Task:Date:Mon Jun 03 00:00:46 EEST 2024
+Title:
+Boolean:false
+
+2024-06-04 00:00:49:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:00:49:SERVER:Message received:
+2024-06-04 00:00:49:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+, Date:2024-06-05 00:00:27.0
+Title:guyft
+Boolean:false
+, Date:2024-06-05 00:00:35.0
+Title:
+Boolean:false
+, Date:2024-06-03 00:00:46.0
+Title:
+Boolean:false
+]
+2024-06-04 00:06:06:SERVER:SignInMessage received
+2024-06-04 00:06:06:SERVER:Message received:
+2024-06-04 00:06:06:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-04 00:06:06:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:06:06:SERVER:Message received:
+2024-06-04 00:06:06:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+, Date:2024-06-05 00:00:27.0
+Title:guyft
+Boolean:false
+, Date:2024-06-05 00:00:35.0
+Title:
+Boolean:false
+, Date:2024-06-03 00:00:46.0
+Title:
+Boolean:false
+]
+2024-06-04 00:08:08:SERVER:SignInMessage received
+2024-06-04 00:08:08:SERVER:Message received:
+2024-06-04 00:08:08:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-04 00:08:08:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:08:08:SERVER:Message received:
+2024-06-04 00:08:08:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+, Date:2024-06-05 00:00:27.0
+Title:guyft
+Boolean:false
+, Date:2024-06-05 00:00:35.0
+Title:
+Boolean:false
+, Date:2024-06-03 00:00:46.0
+Title:
+Boolean:false
+]
+2024-06-04 00:09:49:SERVER:SignInMessage received
+2024-06-04 00:09:49:SERVER:Message received:
+2024-06-04 00:09:49:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-04 00:09:50:SERVER:GetAllTasksForThisUserMessage received
+2024-06-04 00:09:50:SERVER:Message received:
+2024-06-04 00:09:50:Message object:
+Is data updated:true
+Request type:GET_ALL_TASKS_FOR_THIS_USER
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-06-03 21:26:10.0
+Title:jngfijbn
+Boolean:false
+, Date:2024-06-03 22:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 23:26:10.0
+Title:jngfijbn
+Boolean:true
+, Date:2024-06-03 19:26:41.0
+Title:kit,mk
+Boolean:false
+, Date:2022-06-08 20:30:22.0
+Title:dhsrthrth
+Boolean:false
+, Date:2024-01-02 20:31:00.0
+Title:rtjtyj
+Boolean:true
+, Date:2024-06-03 23:57:02.0
+Title:rhrhy
+Boolean:false
+, Date:2024-06-02 23:58:01.0
+Title:rgerger
+Boolean:false
+, Date:2024-06-10 23:58:43.0
+Title:lh
+Boolean:false
+, Date:2024-06-05 00:00:27.0
+Title:guyft
+Boolean:false
+, Date:2024-06-05 00:00:35.0
+Title:
+Boolean:false
+, Date:2024-06-03 00:00:46.0
+Title:
+Boolean:false
+]

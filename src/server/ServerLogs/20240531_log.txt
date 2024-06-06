@@ -1,0 +1,1565 @@
+2024-05-31 21:24:05:SERVER:Trying to launch a server...
+2024-05-31 21:24:05:SERVER:Server socket created successfully
+2024-05-31 21:24:05:DB_MANAGER:ERROR:Could not connect to the database!!!
+2024-05-31 21:24:05:com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2024-05-31 21:24:05:SERVER:Server is launched
+2024-05-31 21:24:17:SERVER:Trying to launch a server...
+2024-05-31 21:24:17:SERVER:Server socket created successfully
+2024-05-31 21:24:17:DB_MANAGER:Connected to the database
+2024-05-31 21:24:17:SERVER:Server is launched
+2024-05-31 21:24:31:SERVER:SignInMessage received
+2024-05-31 21:24:31:SERVER:Message received:
+2024-05-31 21:24:31:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 21:24:31:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 21:24:31:SERVER:Message received:
+2024-05-31 21:24:31:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 21:26:37:SERVER:SignInMessage received
+2024-05-31 21:26:37:SERVER:Message received:
+2024-05-31 21:26:37:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 21:26:37:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 21:26:37:SERVER:Message received:
+2024-05-31 21:26:37:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 21:27:11:SERVER:SignInMessage received
+2024-05-31 21:27:11:SERVER:Message received:
+2024-05-31 21:27:11:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 21:27:12:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 21:27:12:SERVER:Message received:
+2024-05-31 21:27:12:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 21:28:43:SERVER:SignInMessage received
+2024-05-31 21:28:43:SERVER:Message received:
+2024-05-31 21:28:43:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 21:28:43:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 21:28:43:SERVER:Message received:
+2024-05-31 21:28:43:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 21:29:15:SERVER:SignInMessage received
+2024-05-31 21:29:15:SERVER:Message received:
+2024-05-31 21:29:15:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 21:29:15:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 21:29:15:SERVER:Message received:
+2024-05-31 21:29:15:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 21:30:50:SERVER:SignInMessage received
+2024-05-31 21:30:50:SERVER:Message received:
+2024-05-31 21:30:50:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 21:30:51:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 21:30:51:SERVER:Message received:
+2024-05-31 21:30:51:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 21:32:10:SERVER:SignInMessage received
+2024-05-31 21:32:10:SERVER:Message received:
+2024-05-31 21:32:10:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 21:32:11:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 21:32:11:SERVER:Message received:
+2024-05-31 21:32:11:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 21:34:02:SERVER:SignInMessage received
+2024-05-31 21:34:02:SERVER:Message received:
+2024-05-31 21:34:02:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 21:34:51:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 21:34:51:SERVER:Message received:
+2024-05-31 21:34:51:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 21:37:01:SERVER:SignInMessage received
+2024-05-31 21:37:01:SERVER:Message received:
+2024-05-31 21:37:01:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 21:37:12:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 21:37:12:SERVER:Message received:
+2024-05-31 21:37:12:Message object:
+Is data updated:false
+Request type:UNKNOWN
+Response state:UNKNOWN
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 21:39:18:SERVER:SignInMessage received
+2024-05-31 21:39:18:SERVER:Message received:
+2024-05-31 21:39:18:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 21:39:18:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 21:39:18:SERVER:Message received:
+2024-05-31 21:39:18:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 22:37:00:SERVER:SignInMessage received
+2024-05-31 22:37:00:SERVER:Message received:
+2024-05-31 22:37:00:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 22:37:01:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 22:37:01:SERVER:Message received:
+2024-05-31 22:37:01:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 22:47:57:SERVER:SignInMessage received
+2024-05-31 22:47:57:SERVER:Message received:
+2024-05-31 22:47:57:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 22:47:57:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 22:47:57:SERVER:Message received:
+2024-05-31 22:47:57:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:02:50:SERVER:SignInMessage received
+2024-05-31 23:02:50:SERVER:Message received:
+2024-05-31 23:02:50:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:02:50:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:02:50:SERVER:Message received:
+2024-05-31 23:02:50:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:08:06:SERVER:SignInMessage received
+2024-05-31 23:08:06:SERVER:Message received:
+2024-05-31 23:08:06:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:08:06:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:08:06:SERVER:Message received:
+2024-05-31 23:08:06:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:20:59:SERVER:SignInMessage received
+2024-05-31 23:20:59:SERVER:Message received:
+2024-05-31 23:20:59:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:20:59:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:20:59:SERVER:Message received:
+2024-05-31 23:20:59:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:38:12:SERVER:SignInMessage received
+2024-05-31 23:38:12:SERVER:Message received:
+2024-05-31 23:38:12:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:38:12:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:38:12:SERVER:Message received:
+2024-05-31 23:38:12:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:38:15:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:38:15:SERVER:Message received:
+2024-05-31 23:38:15:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:38:18:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:38:18:SERVER:Message received:
+2024-05-31 23:38:18:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:38:20:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:38:20:SERVER:Message received:
+2024-05-31 23:38:20:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:38:25:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:38:25:SERVER:Message received:
+2024-05-31 23:38:25:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:39:11:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:39:11:SERVER:Message received:
+2024-05-31 23:39:11:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:39:50:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:39:50:SERVER:Message received:
+2024-05-31 23:39:50:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:40:15:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:40:15:SERVER:Message received:
+2024-05-31 23:40:15:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:41:30:SERVER:SignInMessage received
+2024-05-31 23:41:30:SERVER:Message received:
+2024-05-31 23:41:30:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:41:30:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:41:30:SERVER:Message received:
+2024-05-31 23:41:30:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:41:39:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:41:39:SERVER:Message received:
+2024-05-31 23:41:39:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:42:53:SERVER:SignInMessage received
+2024-05-31 23:42:53:SERVER:Message received:
+2024-05-31 23:42:53:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:42:53:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:42:53:SERVER:Message received:
+2024-05-31 23:42:53:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:42:58:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:42:58:SERVER:Message received:
+2024-05-31 23:42:58:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:43:41:SERVER:SignInMessage received
+2024-05-31 23:43:41:SERVER:Message received:
+2024-05-31 23:43:41:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:43:41:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:43:41:SERVER:Message received:
+2024-05-31 23:43:41:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:43:46:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:43:46:SERVER:Message received:
+2024-05-31 23:43:46:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:45:21:SERVER:SignInMessage received
+2024-05-31 23:45:21:SERVER:Message received:
+2024-05-31 23:45:21:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:45:21:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:45:21:SERVER:Message received:
+2024-05-31 23:45:21:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:45:38:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:45:38:SERVER:Message received:
+2024-05-31 23:45:38:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:45:38:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:45:38:SERVER:Message received:
+2024-05-31 23:45:38:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:45:42:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:45:42:SERVER:Message received:
+2024-05-31 23:45:42:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:46:10:SERVER:SignInMessage received
+2024-05-31 23:46:10:SERVER:Message received:
+2024-05-31 23:46:10:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:46:10:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:46:10:SERVER:Message received:
+2024-05-31 23:46:10:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:46:17:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:46:17:SERVER:Message received:
+2024-05-31 23:46:17:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:49:15:SERVER:SignInMessage received
+2024-05-31 23:49:15:SERVER:Message received:
+2024-05-31 23:49:15:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:49:16:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:49:16:SERVER:Message received:
+2024-05-31 23:49:16:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:49:25:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:49:25:SERVER:Message received:
+2024-05-31 23:49:25:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:49:38:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:49:38:SERVER:Message received:
+2024-05-31 23:49:38:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+]
+2024-05-31 23:50:05:SERVER:AddNewTaskMessage received
+2024-05-31 23:50:05:DABASE_MANAGER:Data inserted successfully
+2024-05-31 23:50:05:SERVER:Message received:
+2024-05-31 23:50:05:Message object:
+Is data updated:true
+Request type:ADD_NEW_TASK
+Response state:SUCCESS
+ID:1
+Task:Date:Wed May 22 00:00:00 EEST 2024
+Title:Party
+Boolean:false
+
+2024-05-31 23:50:32:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:50:32:SERVER:Message received:
+2024-05-31 23:50:32:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+, Date:2024-05-22 00:00:00.0
+Title:Party
+Boolean:false
+]
+2024-05-31 23:50:33:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:50:33:SERVER:Message received:
+2024-05-31 23:50:33:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+, Date:2024-05-22 00:00:00.0
+Title:Party
+Boolean:false
+]
+2024-05-31 23:58:59:SERVER:SignInMessage received
+2024-05-31 23:58:59:SERVER:Message received:
+2024-05-31 23:58:59:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-05-31 23:58:59:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:58:59:SERVER:Message received:
+2024-05-31 23:58:59:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+, Date:2024-05-22 00:00:00.0
+Title:Party
+Boolean:false
+]
+2024-05-31 23:59:02:SERVER:GetAllTasksForThisUserMessage received
+2024-05-31 23:59:02:SERVER:Message received:
+2024-05-31 23:59:02:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+, Date:2024-05-22 00:00:00.0
+Title:Party
+Boolean:false
+]
+2024-06-01 00:10:40:SERVER:SignInMessage received
+2024-06-01 00:10:40:SERVER:Message received:
+2024-06-01 00:10:40:Message object:
+Is data updated:true
+Request type:SIGN_IN
+Response state:SUCCESS
+Login:MykytaInUA
+Password:1234567890
+ID:1
+2024-06-01 00:10:40:SERVER:GetAllTasksForThisUserMessage received
+2024-06-01 00:10:40:SERVER:Message received:
+2024-06-01 00:10:40:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+, Date:2024-05-22 00:00:00.0
+Title:Party
+Boolean:false
+]
+2024-06-01 00:10:43:SERVER:GetAllTasksForThisUserMessage received
+2024-06-01 00:10:43:SERVER:Message received:
+2024-06-01 00:10:43:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+, Date:2024-05-22 00:00:00.0
+Title:Party
+Boolean:false
+]
+2024-06-01 00:10:49:SERVER:GetAllTasksForThisUserMessage received
+2024-06-01 00:10:49:SERVER:Message received:
+2024-06-01 00:10:49:Message object:
+Is data updated:true
+Request type:UNKNOWN
+Response state:SUCCESS
+ID:1
+Tasks:[Date:2024-05-30 15:00:00.0
+Title:Work
+Boolean:false
+, Date:2024-05-30 16:30:00.0
+Title:Dinner
+Boolean:false
+, Date:2024-05-30 22:30:00.0
+Title:Sleep
+Boolean:false
+, Date:2024-05-30 08:00:00.0
+Title:Wake up
+Boolean:false
+, Date:2024-05-30 09:00:00.0
+Title:Jogging
+Boolean:false
+, Date:2024-05-30 20:10:10.0
+Title:Programming
+Boolean:false
+, Date:2024-05-30 02:30:50.0
+Title:Youtube
+Boolean:false
+, Date:2024-05-22 00:00:00.0
+Title:Party
+Boolean:false
+]
